@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+* {
+  scroll-behavior: smooth;
+  font-family: "Archivo", Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.uppercase-text {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  margin: 10px;
+  margin-left: 15px;
+}
+header button#burger-menu-toggler {
+  background: transparent;
+  margin: 10px;
+}
+
+section.presentacion img#presentacion-mobile {
+  width: 100vw;
+  max-width: 100vw;
+}
+section.presentacion div.article-container {
+  display: inline-block;
+  /* Ensure the container only takes as much width as necessary */
+  border-radius: 4px;
+  /* Set the border radius */
+  overflow: hidden;
+  /* Clip the border-radius to the child element */
+  margin: 15px;
+}
+section.presentacion div.article-container article {
+  text-align: center;
+  border-style: solid;
+  padding: 15px;
+  -o-border-image: linear-gradient(to right, #0099CD, #3CCEAA);
+     border-image: linear-gradient(to right, #0099CD, #3CCEAA);
+  border-image-slice: 1;
+  /* Ensure the entire border area is covered by the gradient */
+  border-image-repeat: stretch;
+  /* Stretch the gradient to cover the entire border */
+}
+section.presentacion div.article-container article h4 {
+  margin: 1em;
+}
+section.presentacion div.article-container article div.container-problemas {
+  display: flex;
+}
+section.presentacion div.article-container article div.container-problemas span#icon-cambio-climatico {
+  background: #0099CD;
+}
+section.presentacion div.article-container article div.container-problemas span#icon-seguridad-alimentaria {
+  background: #3CCEAA;
+}
+
+section.objetivo-desarrollo-sostenible article.impacto-ods {
+  background-color: #213B8B;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1em;
+}
+section.objetivo-desarrollo-sostenible article.impacto-ods h4 {
+  margin: 1em;
+}
+section.objetivo-desarrollo-sostenible article.impacto-ods div {
+  padding: 0 15%;
+}
+section.objetivo-desarrollo-sostenible article.impacto-ods div img {
+  width: 45%;
+  margin: 2%;
+}
+section.objetivo-desarrollo-sostenible article.desarrollo-ods {
+  text-align: center;
+}
+section.objetivo-desarrollo-sostenible article.desarrollo-ods img {
+  width: 33%;
+  margin: 2em;
+}
+section.objetivo-desarrollo-sostenible article.desarrollo-ods p {
+  margin: 1em;
+  margin-top: 0;
+}
+
+section.propuestas-desafio-cero article.container-title {
+  display: flex;
+  align-items: center;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar div.container-prop-implementar {
+  display: flex;
+  align-items: center;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+section.propuestas-desafio-cero {
+    article.container-title {
+        display: flex;
+        align-items: center;
+    }
+    article.container-propuestas {
+        div.propuestas-implementar {
+            div.container-prop-implementar {
+                display: flex;
+                align-items: center;
+            }
+        }
+        div.propuestas-recuperar {
+            div.container-prop-recuperar {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+    }
+}

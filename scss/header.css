@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  margin: 10px;
+  margin-left: 15px;
+}
+header button#burger-menu-toggler {
+  background: transparent;
+  margin: 10px;
+}/*# sourceMappingURL=header.css.map */

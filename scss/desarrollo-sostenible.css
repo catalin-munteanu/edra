@@ -1,0 +1,27 @@
+section.objetivo-desarrollo-sostenible article.impacto-ods {
+  background-color: #213B8B;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1em;
+}
+section.objetivo-desarrollo-sostenible article.impacto-ods h4 {
+  margin: 1em;
+}
+section.objetivo-desarrollo-sostenible article.impacto-ods div {
+  padding: 0 15%;
+}
+section.objetivo-desarrollo-sostenible article.impacto-ods div img {
+  width: 45%;
+  margin: 2%;
+}
+section.objetivo-desarrollo-sostenible article.desarrollo-ods {
+  text-align: center;
+}
+section.objetivo-desarrollo-sostenible article.desarrollo-ods img {
+  width: 33%;
+  margin: 2em;
+}
+section.objetivo-desarrollo-sostenible article.desarrollo-ods p {
+  margin: 1em;
+  margin-top: 0;
+}/*# sourceMappingURL=desarrollo-sostenible.css.map */
