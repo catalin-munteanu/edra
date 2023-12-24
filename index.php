@@ -102,17 +102,88 @@
 
         <section class="practicas-agricultura-sostenible">
             <h4>PRÁCTICAS DE AGRICULTURA SOSTENIBLE</h4>
-            <article class="cultivo-cobertura"></article>
-            <article class="areas-conservacion"></article>
-            <article class="gestion-perdidas-desperdicios"></article>
-            <article class="recuperacion-envases"></article>
+            <article class="cultivo-cobertura">
+                <img src="img/mobile/icon-black-cult-cobertura.png">
+                <h4>Cultivo de cobertura</h4>
+                <p class="p2">El objetivo es promover la fertilidad y salud del suelo, controlar malezas, plagas y enfermedades e incrementar la biodiversidad dentro del agroecosistema.</p>
+                <h5>Impactos clave:</h5>
+                <ul class="p2">
+                    <li>Mejora en la estructura del suelo.</li>
+                    <li>Promueve la fertilidad</li>
+                    <li>Reduce necesidad de fitosanitarios modera la temperatura del suelo.</li>
+                </ul>
+            </article>
+            <article class="areas-conservacion">
+                <img src="img/mobile/icon-black-area-conservacion.png">
+                <h4>Áreas de conservación</h4>
+                <p class="p2">Espacios de vegetación espontánea que difieren de su contexto o matriz en la que están inmersos en el paisaje agropecuario y se definen por su cobertura dominante (agrícola, forestal, pastizal).</p>
+                <h5>Impactos clave:</h5>
+                <ul class="p2">
+                    <li>Provee hábitat para la biodiversidad.</li>
+                </ul>
+            </article>
+            <article class="gestion-perdidas-desperdicios">
+                <img src="img/mobile/icon-white-perdidas-desperdicios.png">
+                <h4>Gestión de pérdidas y desperdicios de alimentos</h4>
+                <p class="p2">Recuperación y distribución de producción frutihortícola por no cumplir estándares de mercado y redirecciona a personas que sufren inseguridad alimentaria.</p>
+                <h5>Impactos clave:</h5>
+                <ul>
+                    <li>Otorga valor social y ambiental de alimentos que perdieron su valor comercial, evitando emisiones de GEI.</li>
+                </ul>
+            </article>
+            <article class="recuperacion-envases">
+                <img src="img/mobile/icon-white-recuperacion-envases.png">
+                <h4>Recuperación de envases de fitosanitarios</h4>
+                <p class="p2">Recuperación de envases vacíos de provenientes de la producción frutihortícola para promover su correcta gestión y disposición final.</p>
+                <h5>Impactos clave:</h5>
+                <ul>
+                    <li>Otorga valor ambiental evitando la contaminación como consecuencia en malos hábitos en su eliminación.</li>
+                </ul>
+            </article>
         </section>
 
         <section class="aliados-y-objetivos">
             <h3>ALIADOS DEL DESAFÍO CERO</h3>
             <h4>Productores y empresas que se sumaron a esta prueba cerrada.</h4>
+            <article class="cinco-productores-empresas">
+                <div>5 productores</div>
+                <div>5 empresas</div>
+            </article>
             <h3>OBJETIVOS DEL DESAFÍO CERO</h3>
             <h4>En 250 días nos propusimos alcanzar:</h4>
+            <article>
+                <div class="card-area-conservacion">
+                    <img src="img/mobile/icon-blue-area-conservacion.png">
+                    <h5>Área de conservación</h5>
+                </div>
+                <div>
+                    <span>10 Hectáreas</span>
+                    <span>170 tn CO2eq</span>
+                </div>
+                <div class="cultivo-cobertura">
+                    <img src="img/mobile/icon-blue-cult-cobertura.png">
+                    <h5>Cultivo de cobertura</h5>
+                </div>
+                <div>
+                    <span>500 Hectáreas</span>
+                    <span>250 tn CO2eq</span>
+                </div>
+                <div class="perdidas-desperdicios">
+                    <img src="img/mobile/icon-blue-perdidas-desperdicios.png">
+                    <h5>En pérdidas y desperdicios de alimentos</h5>
+                </div>
+                <div>
+                    <span>125 toneladas de alimentos</span>
+                    <span>62 tn CO2eq</span>
+                </div>
+                <div class="recuperacion-envases">
+                    <img src="img/mobile/icon-blue-recuperacion-envases.png">
+                    <h5>En recuperación de envases de fitosanitarios</h5>
+                </div>
+                <div>
+                    <span>250 kilos de plástico</span>
+                </div>
+            </article>
         </section>
 
         <section class="indicadores-impacto">
@@ -129,9 +200,9 @@
 
             </form>
         </article>
-        <img src="img/mobile/logo-desafio-cero-footer.png">
-        <h4>DESAFÍO CERO</h4>
-        <p>Powered by ALT</p>
+        <img class="logo-footer" src="img/mobile/logo-desafio-cero-footer.png">
+        <h4 class="title-footer">DESAFÍO CERO</h4>
+        <p class="powered-alt">Powered by ALT</p>
     </footer>
 
 </body>

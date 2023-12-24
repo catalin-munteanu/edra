@@ -136,4 +136,68 @@ section.propuestas-desafio-cero article.container-propuestas div.propuestas-impl
 section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar {
   display: flex;
   align-items: center;
+}
+
+section.card-video h4 {
+  text-align: center;
+}
+section.card-video article {
+  margin: 1em;
+}
+section.card-video article p {
+  text-align: center;
+}
+
+section.practicas-agricultura-sostenible h4 {
+  text-align: center;
+}
+section.practicas-agricultura-sostenible article.cultivo-cobertura {
+  background-color: #0099CD;
+}
+section.practicas-agricultura-sostenible article.areas-conservacion {
+  background-color: #3DCEAA;
+}
+section.practicas-agricultura-sostenible article.gestion-perdidas-desperdicios {
+  background-color: #6C3880;
+  color: #FFFFFF;
+}
+section.practicas-agricultura-sostenible article.recuperacion-envases {
+  background-color: #213C89;
+}
+
+section.aliados-y-objetivos h3 {
+  text-align: center;
+}
+section.aliados-y-objetivos h4 {
+  text-align: center;
+}
+
+section.indicadores-impacto img {
+  width: 100vw;
+  max-width: 100vw;
+}
+
+footer {
+  background: linear-gradient(to right, #0099CD, #3CCEAA);
+  padding: 2em 0;
+  text-align: center;
+}
+footer article.subscribe-form {
+  margin: 1em 1em 2em;
+  padding: 2em 1em;
+  background-color: #FFFFFF;
+  text-align: left;
+}
+footer img.logo-footer {
+  width: 50%;
+  max-width: 50vw;
+}
+footer h4.title-footer {
+  margin: 1em;
+  color: #FFFFFF;
+}
+footer p.powered-alt {
+  color: #FFFFFF;
+  font-style: italic;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

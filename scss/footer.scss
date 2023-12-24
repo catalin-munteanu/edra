@@ -1,0 +1,29 @@
+footer {
+    background: linear-gradient(to right, #0099CD, #3CCEAA);
+    padding: 2em 0;
+    text-align: center;
+
+    article.subscribe-form {
+        margin: 1em 1em 2em;
+        padding: 2em 1em;
+        background-color: #FFFFFF;
+        text-align: left;
+    }
+
+    img.logo-footer {
+        width: 50%; 
+        max-width: 50vw;
+    }
+
+    h4.title-footer {
+        margin: 1em;
+        color: #FFFFFF;
+    }
+
+    p.powered-alt {
+        color: #FFFFFF;
+        font-style: italic;
+        text-decoration: underline;
+    }
+}
+            

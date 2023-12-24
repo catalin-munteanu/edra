@@ -1,0 +1,16 @@
+section.practicas-agricultura-sostenible h4 {
+  text-align: center;
+}
+section.practicas-agricultura-sostenible article.cultivo-cobertura {
+  background-color: #0099CD;
+}
+section.practicas-agricultura-sostenible article.areas-conservacion {
+  background-color: #3DCEAA;
+}
+section.practicas-agricultura-sostenible article.gestion-perdidas-desperdicios {
+  background-color: #6C3880;
+  color: #FFFFFF;
+}
+section.practicas-agricultura-sostenible article.recuperacion-envases {
+  background-color: #213C89;
+}/*# sourceMappingURL=practicas-agricultura.css.map */
