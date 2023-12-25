@@ -1,16 +1,84 @@
-section.practicas-agricultura-sostenible h4 {
+section.practicas-agricultura-sostenible {
   text-align: center;
 }
-section.practicas-agricultura-sostenible article.cultivo-cobertura {
+section.practicas-agricultura-sostenible h4 {
+  text-align: center;
+  line-height: 26px;
+}
+section.practicas-agricultura-sostenible div.container-practicas {
+  margin: 1em;
+  text-align: left;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.cultivo-cobertura {
   background-color: #0099CD;
+  padding: 1em;
 }
-section.practicas-agricultura-sostenible article.areas-conservacion {
+section.practicas-agricultura-sostenible div.container-practicas article.cultivo-cobertura img {
+  width: 25%;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.cultivo-cobertura h4 {
+  text-align: left;
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.cultivo-cobertura h5 {
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.cultivo-cobertura ul li {
+  list-style: disc inside none;
+  line-height: 20.8px;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.areas-conservacion {
   background-color: #3DCEAA;
+  padding: 1em;
 }
-section.practicas-agricultura-sostenible article.gestion-perdidas-desperdicios {
+section.practicas-agricultura-sostenible div.container-practicas article.areas-conservacion img {
+  width: 25%;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.areas-conservacion h4 {
+  text-align: left;
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.areas-conservacion h5 {
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.areas-conservacion ul li {
+  list-style: disc inside none;
+  line-height: 20.8px;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.gestion-perdidas-desperdicios {
   background-color: #6C3880;
   color: #FFFFFF;
+  padding: 1em;
 }
-section.practicas-agricultura-sostenible article.recuperacion-envases {
+section.practicas-agricultura-sostenible div.container-practicas article.gestion-perdidas-desperdicios img {
+  width: 25%;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.gestion-perdidas-desperdicios h4 {
+  text-align: left;
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.gestion-perdidas-desperdicios h5 {
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.gestion-perdidas-desperdicios ul li {
+  list-style: disc inside none;
+  line-height: 20.8px;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases {
   background-color: #213C89;
+  padding: 1em;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases img {
+  width: 25%;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases h4 {
+  text-align: left;
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases h5 {
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases ul li {
+  list-style: disc inside none;
+  line-height: 20.8px;
 }/*# sourceMappingURL=practicas-agricultura.css.map */

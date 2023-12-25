@@ -1,24 +1,133 @@
 section.practicas-agricultura-sostenible {
 
+    text-align: center;
+
     h4 {
         text-align: center;
+        line-height: 26px;
     }
 
-    article.cultivo-cobertura {
-        background-color: #0099CD;
-    }
+    div.container-practicas {
 
-    article.areas-conservacion {
-        background-color: #3DCEAA;
-    }
+        margin: 1em;
+        text-align: left;
 
-    article.gestion-perdidas-desperdicios {
-        background-color: #6C3880;
-        color: #FFFFFF;
-    }
-    
-    article.recuperacion-envases {
-        background-color: #213C89;
+        article.cultivo-cobertura {
+            background-color: #0099CD;
+            padding: 1em;
+
+            img {
+                width: 25%;
+            }
+
+            h4 {
+                text-align: left;
+                margin: 1em 0;
+            }
+
+            h5 {
+                margin: 1em 0;
+            }
+
+            ul {
+
+                li {
+
+                    list-style: disc inside none;
+                    line-height: 20.8px;
+
+                }
+            }
+        }
+
+        article.areas-conservacion {
+            background-color: #3DCEAA;
+            padding: 1em;
+
+            img {
+                width: 25%;
+            }
+
+            h4 {
+                text-align: left;
+                margin: 1em 0;
+            }
+
+            h5 {
+                margin: 1em 0;
+            }
+
+            ul {
+
+                li {
+
+                    list-style: disc inside none;
+                    line-height: 20.8px;
+
+                }
+            }
+
+        }
+
+        article.gestion-perdidas-desperdicios {
+            background-color: #6C3880;
+            color: #FFFFFF;
+            padding: 1em;
+
+            img {
+                width: 25%;
+            }
+
+            h4 {
+                text-align: left;
+                margin: 1em 0;
+            }
+
+            h5 {
+                margin: 1em 0;
+            }
+
+            ul {
+
+                li {
+
+                    list-style: disc inside none;
+                    line-height: 20.8px;
+
+                }
+            }
+
+        }
+
+        article.recuperacion-envases {
+            background-color: #213C89;
+            padding: 1em;
+
+            img {
+                width: 25%;
+            }
+
+            h4 {
+                text-align: left;
+                margin: 1em 0;
+            }
+
+            h5 {
+                margin: 1em 0;
+            }
+
+            ul {
+
+                li {
+
+                    list-style: disc inside none;
+                    line-height: 20.8px;
+
+                }
+            }
+
+        }
+
     }
 
 }

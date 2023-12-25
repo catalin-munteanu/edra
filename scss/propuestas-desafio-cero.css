@@ -1,12 +1,65 @@
 section.propuestas-desafio-cero article.container-title {
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: relative;
+}
+section.propuestas-desafio-cero article.container-title div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em;
+}
+section.propuestas-desafio-cero article.container-title div img {
+  width: 60px;
+}
+section.propuestas-desafio-cero article.container-title div h5 {
+  margin: 0 1em;
+}
+section.propuestas-desafio-cero article.container-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 2px;
+  background: linear-gradient(to right, #0099CD, #3CCEAA);
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar p.subtitle {
+  margin: 1em;
 }
 section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar div.container-prop-implementar {
   display: flex;
   align-items: center;
+  margin: 1em;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar div.container-prop-implementar figure {
+  width: 50%;
+  text-align: center;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar div.container-prop-implementar figure img {
+  width: 60%;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar div.container-prop-implementar figure figcaption {
+  color: #213C89;
+  margin: 0.5em;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar p.subtitle {
+  margin: 1em;
 }
 section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar {
   display: flex;
   align-items: center;
+  margin: 1em;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar figure {
+  width: 50%;
+  text-align: center;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar figure img {
+  width: 60%;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar figure figcaption {
+  color: #213C89;
+  margin: 0.5em;
 }/*# sourceMappingURL=propuestas-desafio-cero.css.map */

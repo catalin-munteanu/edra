@@ -3,11 +3,15 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header img {
+header img.edra-logo-header {
   margin: 10px;
   margin-left: 15px;
+  width: 40vw;
 }
-header button#burger-menu-toggler {
+header nav button#burger-menu-toggler {
   background: transparent;
   margin: 10px;
+}
+header nav button#burger-menu-toggler img {
+  width: 10vw;
 }/*# sourceMappingURL=header.css.map */

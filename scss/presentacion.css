@@ -14,13 +14,16 @@ section.presentacion div.article-container {
 section.presentacion div.article-container article {
   text-align: center;
   border-style: solid;
-  padding: 15px;
   -o-border-image: linear-gradient(to right, #0099CD, #3CCEAA);
      border-image: linear-gradient(to right, #0099CD, #3CCEAA);
   border-image-slice: 1;
   /* Ensure the entire border area is covered by the gradient */
   border-image-repeat: stretch;
   /* Stretch the gradient to cover the entire border */
+}
+section.presentacion div.article-container article p {
+  line-height: 20.8px;
+  margin: 10px;
 }
 section.presentacion div.article-container article h4 {
   margin: 1em;
@@ -30,7 +33,25 @@ section.presentacion div.article-container article div.container-problemas {
 }
 section.presentacion div.article-container article div.container-problemas span#icon-cambio-climatico {
   background: #0099CD;
+  width: 50%;
+  color: #FFFFFF;
+}
+section.presentacion div.article-container article div.container-problemas span#icon-cambio-climatico img {
+  width: 40%;
+  margin-top: 1em;
+}
+section.presentacion div.article-container article div.container-problemas span#icon-cambio-climatico h5 {
+  margin: 1em;
 }
 section.presentacion div.article-container article div.container-problemas span#icon-seguridad-alimentaria {
   background: #3CCEAA;
+  width: 50%;
+  color: #FFFFFF;
+}
+section.presentacion div.article-container article div.container-problemas span#icon-seguridad-alimentaria img {
+  width: 40%;
+  margin-top: 1em;
+}
+section.presentacion div.article-container article div.container-problemas span#icon-seguridad-alimentaria h5 {
+  margin: 1em;
 }/*# sourceMappingURL=presentacion.css.map */

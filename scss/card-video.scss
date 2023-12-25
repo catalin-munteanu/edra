@@ -1,15 +1,40 @@
 section.card-video {
-    
-    h4 {
-        text-align: center;
+
+    article.container-title {
+
+        position: relative;
+        padding: 1.5em;
+
+        h4 {
+            text-align: center;
+            line-height: 26px;
+        }
+
+    }
+
+    article.container-title::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 5%;
+        width: 90%;
+        height: 2px;
+        background: linear-gradient(to right, #0099CD, #3CCEAA);
     }
 
     article {
-        
+
         margin: 1em;
+        text-align: center;
+
+        h4 {
+            text-align: center;
+        }
 
         p {
             text-align: center;
+            margin: 2em;
+            line-height: 20.8px;
         }
     }
 }

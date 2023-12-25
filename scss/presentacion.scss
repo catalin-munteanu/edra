@@ -17,13 +17,17 @@ section.presentacion {
         article {
             text-align: center;
             border-style: solid;
-            padding: 15px;
             border-image: linear-gradient(to right, #0099CD, #3CCEAA);
             border-image-slice: 1;
             /* Ensure the entire border area is covered by the gradient */
             border-image-repeat: stretch;
             /* Stretch the gradient to cover the entire border */
         
+            p {
+                line-height: 20.8px;
+                margin: 10px;
+            }
+
             h4 {
                 margin: 1em;
             }
@@ -34,9 +38,31 @@ section.presentacion {
                 
                 span#icon-cambio-climatico {
                     background: #0099CD;
+                    width: 50%;
+                    color: #FFFFFF;
+                    
+                    img {
+                        width: 40%;
+                        margin-top: 1em;
+                    }
+                    
+                    h5 {
+                        margin: 1em;
+                    }
                 }
                 span#icon-seguridad-alimentaria {
                     background: #3CCEAA;
+                    width: 50%;
+                    color: #FFFFFF;
+
+                    img {
+                        width: 40%;
+                        margin-top: 1em;
+                    }
+                    
+                    h5 {
+                        margin: 1em;
+                    }
                 }
             }
         }

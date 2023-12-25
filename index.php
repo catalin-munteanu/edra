@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <img src="img/mobile/edra-logo-mobile.png">
+        <img class="edra-logo-header" src="img/mobile/edra-logo-mobile.png">
         <nav>
             <button id="burger-menu-toggler" aria-label="Menú de navegación">
                 <img id="open-mobile-menu" src="img/mobile/burger-menu-open.png" alt="Botón de apertura del menú">
@@ -31,8 +31,12 @@
                     <p>Lanzamos DESAFÍO CERO con el objetivo de validar nuestra solución y su impacto positivo en la cadena de producción de alimentos. Juntos a nuestros aliados buscamos colaborar en la resolución de dos grandes desafíos: la seguridad alimentaria y el cambio climático.</p>
                     <h4>Colaboramos a resolver estos dos problemas</h4>
                     <div class="container-problemas">
-                        <span id="icon-cambio-climatico"><img src="img/mobile/icon-cambio-climatico.png"></span>
-                        <span id="icon-seguridad-alimentaria"><img src="img/mobile/icon-seguridad-alimentaria.png"></span>
+                        <span id="icon-cambio-climatico"><img src="img/mobile/icon-cambio-climatico.png">
+                            <h5>Cambio<br>climático</h5>
+                        </span>
+                        <span id="icon-seguridad-alimentaria"><img src="img/mobile/icon-seguridad-alimentaria.png">
+                            <h5>Seguridad<br>alimentaria</h5>
+                        </span>
                     </div>
                 </article>
             </div>
@@ -59,33 +63,35 @@
 
         <section class="propuestas-desafio-cero">
             <article class="container-title">
-                <img src="img/mobile/icon-dardo-mobile.png">
-                <h5>Por eso en el DESAFÍO CERO nos propusimos</h5>
+                <div>
+                    <img src="img/mobile/icon-dardo-mobile.png">
+                    <h5>Por eso en el DESAFÍO CERO nos propusimos</h5>
+                </div>
             </article>
             <article class="container-propuestas">
                 <div class="propuestas-implementar">
-                    <p>Implementar</p>
+                    <p class="subtitle">Implementar</p>
                     <div class="container-prop-implementar">
                         <figure>
                             <img src="img/mobile/icon-conservacion-mobile.png">
-                            <figcaption>10 hectáreas de áreas de conservación</figcaption>
+                            <figcaption>10 hectáreas de áreas<br>de conservación</figcaption>
                         </figure>
                         <figure>
                             <img src="img/mobile/icon-cultivo-mobile.png">
-                            <figcaption>500 hectáreas de cultivo de cobertura</figcaption>
+                            <figcaption>500 hectáreas de<br>cultivo de cobertura</figcaption>
                         </figure>
                     </div>
                 </div>
                 <div class="propuestas-recuperar">
-                    <p>Recuperar</p>
+                    <p class="subtitle">Recuperar</p>
                     <div class="container-prop-recuperar">
                         <figure>
                             <img src="img/mobile/icon-alimentos-mobile.png">
-                            <figcaption>125 toneladas de alimentos</figcaption>
+                            <figcaption>125 toneladas<br>de alimentos</figcaption>
                         </figure>
                         <figure>
                             <img src="img/mobile/icon-plasticos-mobile.png">
-                            <figcaption>2.500 kilos de plásticos</figcaption>
+                            <figcaption>2.500 kilos<br>de plásticos</figcaption>
                         </figure>
                     </div>
                 </div>
@@ -93,15 +99,21 @@
         </section>
 
         <section class="card-video">
-            <h4>EDRA es una climatech que promueve la implementación de soluciones basadas en la naturaleza a través de herramientas tecnológicas</h4>
+            <article class="container-title">
+                <h4>EDRA es una climatech que promueve la implementación de soluciones basadas en la naturaleza a través de herramientas tecnológicas</h4>
+            </article>
             <article>
                 <h4>LANZAMOS EL DESAFÍO CERO</h4>
                 <p>Te contamos sobre nuestra metodología y nuestra visión</p>
+                <button id="conoce-edra" aria-label="Conocé EDRA">
+                    Conocé EDRA
+                </button>
             </article>
         </section>
 
         <section class="practicas-agricultura-sostenible">
             <h4>PRÁCTICAS DE AGRICULTURA SOSTENIBLE</h4>
+            <div class="container-practicas">
             <article class="cultivo-cobertura">
                 <img src="img/mobile/icon-black-cult-cobertura.png">
                 <h4>Cultivo de cobertura</h4>
@@ -140,6 +152,8 @@
                     <li>Otorga valor ambiental evitando la contaminación como consecuencia en malos hábitos en su eliminación.</li>
                 </ul>
             </article>
+            </div>
+            <button id="saber-mas">Quiero saber más</button>
         </section>
 
         <section class="aliados-y-objetivos">

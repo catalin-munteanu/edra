@@ -46,18 +46,26 @@ h5 {
   font-weight: 600;
 }
 
+p {
+  line-height: 20.8px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header img {
+header img.edra-logo-header {
   margin: 10px;
   margin-left: 15px;
+  width: 40vw;
 }
-header button#burger-menu-toggler {
+header nav button#burger-menu-toggler {
   background: transparent;
   margin: 10px;
+}
+header nav button#burger-menu-toggler img {
+  width: 10vw;
 }
 
 section.presentacion img#presentacion-mobile {
@@ -76,13 +84,16 @@ section.presentacion div.article-container {
 section.presentacion div.article-container article {
   text-align: center;
   border-style: solid;
-  padding: 15px;
   -o-border-image: linear-gradient(to right, #0099CD, #3CCEAA);
      border-image: linear-gradient(to right, #0099CD, #3CCEAA);
   border-image-slice: 1;
   /* Ensure the entire border area is covered by the gradient */
   border-image-repeat: stretch;
   /* Stretch the gradient to cover the entire border */
+}
+section.presentacion div.article-container article p {
+  line-height: 20.8px;
+  margin: 10px;
 }
 section.presentacion div.article-container article h4 {
   margin: 1em;
@@ -92,9 +103,27 @@ section.presentacion div.article-container article div.container-problemas {
 }
 section.presentacion div.article-container article div.container-problemas span#icon-cambio-climatico {
   background: #0099CD;
+  width: 50%;
+  color: #FFFFFF;
+}
+section.presentacion div.article-container article div.container-problemas span#icon-cambio-climatico img {
+  width: 40%;
+  margin-top: 1em;
+}
+section.presentacion div.article-container article div.container-problemas span#icon-cambio-climatico h5 {
+  margin: 1em;
 }
 section.presentacion div.article-container article div.container-problemas span#icon-seguridad-alimentaria {
   background: #3CCEAA;
+  width: 50%;
+  color: #FFFFFF;
+}
+section.presentacion div.article-container article div.container-problemas span#icon-seguridad-alimentaria img {
+  width: 40%;
+  margin-top: 1em;
+}
+section.presentacion div.article-container article div.container-problemas span#icon-seguridad-alimentaria h5 {
+  margin: 1em;
 }
 
 section.objetivo-desarrollo-sostenible article.impacto-ods {
@@ -123,46 +152,188 @@ section.objetivo-desarrollo-sostenible article.desarrollo-ods img {
 section.objetivo-desarrollo-sostenible article.desarrollo-ods p {
   margin: 1em;
   margin-top: 0;
+  line-height: 20.8px;
 }
 
 section.propuestas-desafio-cero article.container-title {
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: relative;
+}
+section.propuestas-desafio-cero article.container-title div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em;
+}
+section.propuestas-desafio-cero article.container-title div img {
+  width: 60px;
+}
+section.propuestas-desafio-cero article.container-title div h5 {
+  margin: 0 1em;
+}
+section.propuestas-desafio-cero article.container-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 2px;
+  background: linear-gradient(to right, #0099CD, #3CCEAA);
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar p.subtitle {
+  margin: 1em;
 }
 section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar div.container-prop-implementar {
   display: flex;
   align-items: center;
+  margin: 1em;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar div.container-prop-implementar figure {
+  width: 50%;
+  text-align: center;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar div.container-prop-implementar figure img {
+  width: 60%;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar div.container-prop-implementar figure figcaption {
+  color: #213C89;
+  margin: 0.5em;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar p.subtitle {
+  margin: 1em;
 }
 section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar {
   display: flex;
   align-items: center;
+  margin: 1em;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar figure {
+  width: 50%;
+  text-align: center;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar figure img {
+  width: 60%;
+}
+section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar figure figcaption {
+  color: #213C89;
+  margin: 0.5em;
 }
 
-section.card-video h4 {
+section.card-video article.container-title {
+  position: relative;
+  padding: 1.5em;
+}
+section.card-video article.container-title h4 {
   text-align: center;
+  line-height: 26px;
+}
+section.card-video article.container-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 2px;
+  background: linear-gradient(to right, #0099CD, #3CCEAA);
 }
 section.card-video article {
   margin: 1em;
+  text-align: center;
+}
+section.card-video article h4 {
+  text-align: center;
 }
 section.card-video article p {
   text-align: center;
+  margin: 2em;
+  line-height: 20.8px;
 }
 
-section.practicas-agricultura-sostenible h4 {
+section.practicas-agricultura-sostenible {
   text-align: center;
 }
-section.practicas-agricultura-sostenible article.cultivo-cobertura {
+section.practicas-agricultura-sostenible h4 {
+  text-align: center;
+  line-height: 26px;
+}
+section.practicas-agricultura-sostenible div.container-practicas {
+  margin: 1em;
+  text-align: left;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.cultivo-cobertura {
   background-color: #0099CD;
+  padding: 1em;
 }
-section.practicas-agricultura-sostenible article.areas-conservacion {
+section.practicas-agricultura-sostenible div.container-practicas article.cultivo-cobertura img {
+  width: 25%;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.cultivo-cobertura h4 {
+  text-align: left;
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.cultivo-cobertura h5 {
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.cultivo-cobertura ul li {
+  list-style: disc inside none;
+  line-height: 20.8px;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.areas-conservacion {
   background-color: #3DCEAA;
+  padding: 1em;
 }
-section.practicas-agricultura-sostenible article.gestion-perdidas-desperdicios {
+section.practicas-agricultura-sostenible div.container-practicas article.areas-conservacion img {
+  width: 25%;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.areas-conservacion h4 {
+  text-align: left;
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.areas-conservacion h5 {
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.areas-conservacion ul li {
+  list-style: disc inside none;
+  line-height: 20.8px;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.gestion-perdidas-desperdicios {
   background-color: #6C3880;
   color: #FFFFFF;
+  padding: 1em;
 }
-section.practicas-agricultura-sostenible article.recuperacion-envases {
+section.practicas-agricultura-sostenible div.container-practicas article.gestion-perdidas-desperdicios img {
+  width: 25%;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.gestion-perdidas-desperdicios h4 {
+  text-align: left;
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.gestion-perdidas-desperdicios h5 {
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.gestion-perdidas-desperdicios ul li {
+  list-style: disc inside none;
+  line-height: 20.8px;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases {
   background-color: #213C89;
+  padding: 1em;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases img {
+  width: 25%;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases h4 {
+  text-align: left;
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases h5 {
+  margin: 1em 0;
+}
+section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases ul li {
+  list-style: disc inside none;
+  line-height: 20.8px;
 }
 
 section.aliados-y-objetivos h3 {
