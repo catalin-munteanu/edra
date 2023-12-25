@@ -114,44 +114,44 @@
         <section class="practicas-agricultura-sostenible">
             <h4>PRÁCTICAS DE AGRICULTURA SOSTENIBLE</h4>
             <div class="container-practicas">
-            <article class="cultivo-cobertura">
-                <img src="img/mobile/icon-black-cult-cobertura.png">
-                <h4>Cultivo de cobertura</h4>
-                <p class="p2">El objetivo es promover la fertilidad y salud del suelo, controlar malezas, plagas y enfermedades e incrementar la biodiversidad dentro del agroecosistema.</p>
-                <h5>Impactos clave:</h5>
-                <ul class="p2">
-                    <li>Mejora en la estructura del suelo.</li>
-                    <li>Promueve la fertilidad</li>
-                    <li>Reduce necesidad de fitosanitarios modera la temperatura del suelo.</li>
-                </ul>
-            </article>
-            <article class="areas-conservacion">
-                <img src="img/mobile/icon-black-area-conservacion.png">
-                <h4>Áreas de conservación</h4>
-                <p class="p2">Espacios de vegetación espontánea que difieren de su contexto o matriz en la que están inmersos en el paisaje agropecuario y se definen por su cobertura dominante (agrícola, forestal, pastizal).</p>
-                <h5>Impactos clave:</h5>
-                <ul class="p2">
-                    <li>Provee hábitat para la biodiversidad.</li>
-                </ul>
-            </article>
-            <article class="gestion-perdidas-desperdicios">
-                <img src="img/mobile/icon-white-perdidas-desperdicios.png">
-                <h4>Gestión de pérdidas y desperdicios de alimentos</h4>
-                <p class="p2">Recuperación y distribución de producción frutihortícola por no cumplir estándares de mercado y redirecciona a personas que sufren inseguridad alimentaria.</p>
-                <h5>Impactos clave:</h5>
-                <ul>
-                    <li>Otorga valor social y ambiental de alimentos que perdieron su valor comercial, evitando emisiones de GEI.</li>
-                </ul>
-            </article>
-            <article class="recuperacion-envases">
-                <img src="img/mobile/icon-white-recuperacion-envases.png">
-                <h4>Recuperación de envases de fitosanitarios</h4>
-                <p class="p2">Recuperación de envases vacíos de provenientes de la producción frutihortícola para promover su correcta gestión y disposición final.</p>
-                <h5>Impactos clave:</h5>
-                <ul>
-                    <li>Otorga valor ambiental evitando la contaminación como consecuencia en malos hábitos en su eliminación.</li>
-                </ul>
-            </article>
+                <article class="cultivo-cobertura">
+                    <img src="img/mobile/icon-black-cult-cobertura.png">
+                    <h4>Cultivo de cobertura</h4>
+                    <p class="p2">El objetivo es promover la fertilidad y salud del suelo, controlar malezas, plagas y enfermedades e incrementar la biodiversidad dentro del agroecosistema.</p>
+                    <h5>Impactos clave:</h5>
+                    <ul class="p2">
+                        <li>Mejora en la estructura del suelo.</li>
+                        <li>Promueve la fertilidad</li>
+                        <li>Reduce necesidad de fitosanitarios modera la temperatura del suelo.</li>
+                    </ul>
+                </article>
+                <article class="areas-conservacion">
+                    <img src="img/mobile/icon-black-area-conservacion.png">
+                    <h4>Áreas de conservación</h4>
+                    <p class="p2">Espacios de vegetación espontánea que difieren de su contexto o matriz en la que están inmersos en el paisaje agropecuario y se definen por su cobertura dominante (agrícola, forestal, pastizal).</p>
+                    <h5>Impactos clave:</h5>
+                    <ul class="p2">
+                        <li>Provee hábitat para la biodiversidad.</li>
+                    </ul>
+                </article>
+                <article class="gestion-perdidas-desperdicios">
+                    <img src="img/mobile/icon-white-perdidas-desperdicios.png">
+                    <h4>Gestión de pérdidas y desperdicios de alimentos</h4>
+                    <p class="p2">Recuperación y distribución de producción frutihortícola por no cumplir estándares de mercado y redirecciona a personas que sufren inseguridad alimentaria.</p>
+                    <h5>Impactos clave:</h5>
+                    <ul>
+                        <li>Otorga valor social y ambiental de alimentos que perdieron su valor comercial, evitando emisiones de GEI.</li>
+                    </ul>
+                </article>
+                <article class="recuperacion-envases">
+                    <img src="img/mobile/icon-white-recuperacion-envases.png">
+                    <h4>Recuperación de envases de fitosanitarios</h4>
+                    <p class="p2">Recuperación de envases vacíos de provenientes de la producción frutihortícola para promover su correcta gestión y disposición final.</p>
+                    <h5>Impactos clave:</h5>
+                    <ul>
+                        <li>Otorga valor ambiental evitando la contaminación como consecuencia en malos hábitos en su eliminación.</li>
+                    </ul>
+                </article>
             </div>
             <button id="saber-mas">Quiero saber más</button>
         </section>
@@ -160,10 +160,18 @@
             <h3>ALIADOS DEL DESAFÍO CERO</h3>
             <h4>Productores y empresas que se sumaron a esta prueba cerrada.</h4>
             <article class="cinco-productores-empresas">
-                <div>5 productores</div>
-                <div>5 empresas</div>
+                <div class="color-celeste"><strong class="big-number">5</strong><br>
+                    <h4>Productores</h4>
+                </div>
+                <div class="color-verde"><strong class="big-number">5</strong><br>
+                    <h4>Empresas</h4>
+                </div>
             </article>
-            <h3>OBJETIVOS DEL DESAFÍO CERO</h3>
+            <article class="data-objetivos">
+            <div class="container-title-objetivos">
+                <h3>OBJETIVOS DEL DESAFÍO CERO</h3>
+            </div>
+            </article>
             <h4>En 250 días nos propusimos alcanzar:</h4>
             <article>
                 <div class="card-area-conservacion">

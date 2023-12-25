@@ -1,8 +1,57 @@
 section.aliados-y-objetivos {
+
     h3 {
         text-align: center;
+        margin: 1em;
     }
+
     h4 {
         text-align: center;
+        margin: 1em;
+    }
+
+    article.cinco-productores-empresas {
+
+        display: flex;
+        justify-content: space-evenly;
+
+        div {
+
+            text-align: center;
+
+            strong.big-number {
+                font-size: 96px;
+            }
+
+            h4 {
+                font-size: 20px;
+                margin-top: 0;
+            }
+        }
+    }
+
+    article.data-objetivos {
+
+        position: relative;
+
+        div.container-title-objetivos::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 5%;
+            width: 90%;
+            height: 2px;
+            background: linear-gradient(to right, #0099CD, #3CCEAA);
+        }
+
+        div.container-title-objetivos {
+
+            h3 {
+
+                padding: 1em 0;
+
+            }
+
+        }
     }
 }

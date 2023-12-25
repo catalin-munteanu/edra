@@ -50,6 +50,14 @@ p {
   line-height: 20.8px;
 }
 
+.color-celeste {
+  color: #0099CD;
+}
+
+.color-verde {
+  color: #3DCEAA;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -338,9 +346,40 @@ section.practicas-agricultura-sostenible div.container-practicas article.recuper
 
 section.aliados-y-objetivos h3 {
   text-align: center;
+  margin: 1em;
 }
 section.aliados-y-objetivos h4 {
   text-align: center;
+  margin: 1em;
+}
+section.aliados-y-objetivos article.cinco-productores-empresas {
+  display: flex;
+  justify-content: space-evenly;
+}
+section.aliados-y-objetivos article.cinco-productores-empresas div {
+  text-align: center;
+}
+section.aliados-y-objetivos article.cinco-productores-empresas div strong.big-number {
+  font-size: 96px;
+}
+section.aliados-y-objetivos article.cinco-productores-empresas div h4 {
+  font-size: 20px;
+  margin-top: 0;
+}
+section.aliados-y-objetivos article.data-objetivos {
+  position: relative;
+}
+section.aliados-y-objetivos article.data-objetivos div.container-title-objetivos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 2px;
+  background: linear-gradient(to right, #0099CD, #3CCEAA);
+}
+section.aliados-y-objetivos article.data-objetivos div.container-title-objetivos h3 {
+  padding: 1em 0;
 }
 
 section.indicadores-impacto img {
