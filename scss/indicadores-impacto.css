@@ -1,4 +1,11 @@
 section.indicadores-impacto img {
   width: 100vw;
   max-width: 100vw;
+  display: block;
+}
+section.indicadores-impacto article.gallery-partners {
+  text-align: center;
+}
+section.indicadores-impacto article.gallery-partners h3 {
+  margin: 1em;
 }/*# sourceMappingURL=indicadores-impacto.css.map */

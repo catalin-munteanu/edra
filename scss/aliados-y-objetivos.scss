@@ -54,4 +54,44 @@ section.aliados-y-objetivos {
 
         }
     }
+
+    article.container-cards-objetivos {
+
+        div.card-area-conservacion,
+        div.card-cultivo-cobertura,
+        div.card-perdidas-desperdicios,
+        div.card-recuperacion-envases {
+
+            border-radius: 8px;
+            box-shadow: 0px 0px 20px 0px #00000026;
+            margin: 2%;
+
+            div.container-title {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 20%;
+                    margin: 5%;
+                }
+            }
+
+            div.container-estadisticas {
+                display: flex;
+                justify-content: space-evenly;
+
+                span {
+                    text-align: center;
+
+                    strong {
+                        font-size: 64px;
+                    }
+
+                    p.p1 {
+                        margin: 0 1em 1em;
+                    }
+                }
+            }
+        }
+    }
 }

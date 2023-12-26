@@ -50,12 +50,26 @@ p {
   line-height: 20.8px;
 }
 
+p.p1 {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+p.p2 {
+  font-size: 16px;
+  line-height: 20.8px;
+}
+
 .color-celeste {
   color: #0099CD;
 }
 
 .color-verde {
   color: #3DCEAA;
+}
+
+.color-azul {
+  color: #213C89;
 }
 
 header {
@@ -381,10 +395,64 @@ section.aliados-y-objetivos article.data-objetivos div.container-title-objetivos
 section.aliados-y-objetivos article.data-objetivos div.container-title-objetivos h3 {
   padding: 1em 0;
 }
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases {
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1490196078);
+  margin: 2%;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-title,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-title,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-title,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-title {
+  display: flex;
+  align-items: center;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-title img,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-title img,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-title img,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-title img {
+  width: 20%;
+  margin: 5%;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-estadisticas,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-estadisticas,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-estadisticas,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-estadisticas {
+  display: flex;
+  justify-content: space-evenly;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-estadisticas span,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-estadisticas span,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-estadisticas span,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-estadisticas span {
+  text-align: center;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-estadisticas span strong,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-estadisticas span strong,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-estadisticas span strong,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-estadisticas span strong {
+  font-size: 64px;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-estadisticas span p.p1,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-estadisticas span p.p1,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-estadisticas span p.p1,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-estadisticas span p.p1 {
+  margin: 0 1em 1em;
+}
 
 section.indicadores-impacto img {
   width: 100vw;
   max-width: 100vw;
+  display: block;
+}
+section.indicadores-impacto article.gallery-partners {
+  text-align: center;
+}
+section.indicadores-impacto article.gallery-partners h3 {
+  margin: 1em;
 }
 
 footer {
@@ -395,19 +463,47 @@ footer {
 footer article.subscribe-form {
   margin: 1em 1em 2em;
   padding: 2em 1em;
-  background-color: #FFFFFF;
+  background-color: hsl(0, 0%, 100%);
   text-align: left;
+  border-radius: 8px;
 }
-footer img.logo-footer {
+footer article.subscribe-form p.p2 {
+  margin: 1em 0;
+}
+footer article.subscribe-form form label.label-form {
+  line-height: 20.8px;
+}
+footer article.subscribe-form form input.input-email {
+  height: 40px;
+  border: 1px solid #3DCEAA;
+  border-radius: 4px;
+  width: 100%;
+}
+footer article.footer-data-container {
+  position: relative;
+}
+footer article.footer-data-container img.logo-footer {
   width: 50%;
   max-width: 50vw;
+  margin: 2em;
 }
-footer h4.title-footer {
+footer article.footer-data-container h4.title-footer {
   margin: 1em;
   color: #FFFFFF;
 }
-footer p.powered-alt {
+footer article.footer-data-container p.powered-alt {
   color: #FFFFFF;
   font-style: italic;
   text-decoration: underline;
+}
+footer article.footer-data-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 37%;
+  right: 37%;
+  width: 26%;
+  height: 8px;
+  background: #FFFFFF;
+  border-radius: 8px;
 }/*# sourceMappingURL=style.css.map */

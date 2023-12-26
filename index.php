@@ -168,48 +168,73 @@
                 </div>
             </article>
             <article class="data-objetivos">
-            <div class="container-title-objetivos">
-                <h3>OBJETIVOS DEL DESAFÍO CERO</h3>
-            </div>
+                <div class="container-title-objetivos">
+                    <h3>OBJETIVOS DEL DESAFÍO CERO</h3>
+                </div>
             </article>
             <h4>En 250 días nos propusimos alcanzar:</h4>
-            <article>
+            <article class="container-cards-objetivos">
                 <div class="card-area-conservacion">
-                    <img src="img/mobile/icon-blue-area-conservacion.png">
-                    <h5>Área de conservación</h5>
+                    <div class="container-title">
+                        <img src="img/mobile/icon-blue-area-conservacion.png">
+                        <h5>Área de conservación</h5>
+                    </div>
+                    <div class="container-estadisticas color-azul">
+                        <span><strong>10</strong><br>
+                            <p class="p1">Hectáreas</p>
+                        </span>
+                        <span><strong>170</strong><br>
+                            <p class="p1">tn CO2eq</p>
+                        </span>
+                    </div>
                 </div>
-                <div>
-                    <span>10 Hectáreas</span>
-                    <span>170 tn CO2eq</span>
+                <div class="card-cultivo-cobertura">
+                    <div class="container-title">
+                        <img src="img/mobile/icon-blue-cult-cobertura.png">
+                        <h5>Cultivo de cobertura</h5>
+                    </div>
+                    <div class="container-estadisticas color-azul">
+                        <span><strong>500</strong><br>
+                            <p class="p1">Hectáreas</p>
+                        </span>
+                        <span><strong>250</strong><br>
+                            <p class="p1">tn CO2eq</p>
+                        </span>
+                    </div>
                 </div>
-                <div class="cultivo-cobertura">
-                    <img src="img/mobile/icon-blue-cult-cobertura.png">
-                    <h5>Cultivo de cobertura</h5>
+                <div class="card-perdidas-desperdicios">
+                    <div class="container-title">
+                        <img src="img/mobile/icon-blue-perdidas-desperdicios.png">
+                        <h5>En pérdidas y desperdicios de alimentos</h5>
+                    </div>
+                    <div class="container-estadisticas color-azul">
+                        <span><strong>125</strong><br>
+                            <p class="p1">toneladas de<br>alimentos</p>
+                        </span>
+                        <span><strong>62</strong><br>
+                            <p class="p1">tn CO2eq</p>
+                        </span>
+                    </div>
                 </div>
-                <div>
-                    <span>500 Hectáreas</span>
-                    <span>250 tn CO2eq</span>
-                </div>
-                <div class="perdidas-desperdicios">
-                    <img src="img/mobile/icon-blue-perdidas-desperdicios.png">
-                    <h5>En pérdidas y desperdicios de alimentos</h5>
-                </div>
-                <div>
-                    <span>125 toneladas de alimentos</span>
-                    <span>62 tn CO2eq</span>
-                </div>
-                <div class="recuperacion-envases">
-                    <img src="img/mobile/icon-blue-recuperacion-envases.png">
-                    <h5>En recuperación de envases de fitosanitarios</h5>
-                </div>
-                <div>
-                    <span>250 kilos de plástico</span>
+                <div class="card-recuperacion-envases">
+                    <div class="container-title">
+                        <img src="img/mobile/icon-blue-recuperacion-envases.png">
+                        <h5>En recuperación de envases de fitosanitarios</h5>
+                    </div>
+                    <div class="container-estadisticas color-azul">
+                        <span><strong>250</strong><br>
+                            <p class="p1">kilos de plástico</p>
+                        </span>
+                    </div>
                 </div>
             </article>
         </section>
 
         <section class="indicadores-impacto">
             <img src="img/mobile/indicadores-impacto-mobile.png">
+            <article class="gallery-partners">
+                <h3>PARTNERS</h3>
+            </article>
         </section>
     </main>
 
@@ -217,14 +242,18 @@
 
         <article class="subscribe-form">
             <h3>Suscribite a nuestro Newsletter</h3>
-            <p>Recibí todas las novedades del programa Desafío Cero</p>
+            <p class="p2">Recibí todas las novedades del programa Desafío Cero</p>
             <form>
-
+                <label for="email" class="label-form">Correo Electrónico</label><br>
+                <input type="email" name="mail" id="mail" class="input-email" required><br>
+                <input type="submit" value="Suscribirme" aria-label="Suscribirme">
             </form>
         </article>
-        <img class="logo-footer" src="img/mobile/logo-desafio-cero-footer.png">
-        <h4 class="title-footer">DESAFÍO CERO</h4>
-        <p class="powered-alt">Powered by ALT</p>
+        <article class="footer-data-container">
+            <img class="logo-footer" src="img/mobile/logo-desafio-cero-footer.png">
+            <h4 class="title-footer">DESAFÍO CERO</h4>
+            <p class="powered-alt">Powered by ALT</p>
+        </article>
     </footer>
 
 </body>

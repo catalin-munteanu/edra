@@ -6,19 +6,47 @@ footer {
 footer article.subscribe-form {
   margin: 1em 1em 2em;
   padding: 2em 1em;
-  background-color: #FFFFFF;
+  background-color: hsl(0, 0%, 100%);
   text-align: left;
+  border-radius: 8px;
 }
-footer img.logo-footer {
+footer article.subscribe-form p.p2 {
+  margin: 1em 0;
+}
+footer article.subscribe-form form label.label-form {
+  line-height: 20.8px;
+}
+footer article.subscribe-form form input.input-email {
+  height: 40px;
+  border: 1px solid #3DCEAA;
+  border-radius: 4px;
+  width: 100%;
+}
+footer article.footer-data-container {
+  position: relative;
+}
+footer article.footer-data-container img.logo-footer {
   width: 50%;
   max-width: 50vw;
+  margin: 2em;
 }
-footer h4.title-footer {
+footer article.footer-data-container h4.title-footer {
   margin: 1em;
   color: #FFFFFF;
 }
-footer p.powered-alt {
+footer article.footer-data-container p.powered-alt {
   color: #FFFFFF;
   font-style: italic;
   text-decoration: underline;
+}
+footer article.footer-data-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 37%;
+  right: 37%;
+  width: 26%;
+  height: 8px;
+  background: #FFFFFF;
+  border-radius: 8px;
 }/*# sourceMappingURL=footer.css.map */

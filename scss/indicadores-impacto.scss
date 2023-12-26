@@ -2,5 +2,14 @@ section.indicadores-impacto {
     img {
         width: 100vw;
         max-width: 100vw;
+        display: block;
+    }
+    
+    article.gallery-partners {
+        text-align: center;
+
+        h3 {
+            margin: 1em;
+        }
     }
 }

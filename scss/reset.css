@@ -50,10 +50,24 @@ p {
   line-height: 20.8px;
 }
 
+p.p1 {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+p.p2 {
+  font-size: 16px;
+  line-height: 20.8px;
+}
+
 .color-celeste {
   color: #0099CD;
 }
 
 .color-verde {
   color: #3DCEAA;
+}
+
+.color-azul {
+  color: #213C89;
 }/*# sourceMappingURL=reset.css.map */

@@ -6,24 +6,59 @@ footer {
     article.subscribe-form {
         margin: 1em 1em 2em;
         padding: 2em 1em;
-        background-color: #FFFFFF;
+        background-color: hsl(0, 0%, 100%);
         text-align: left;
+        border-radius: 8px;
+
+        p.p2 {
+            margin: 1em 0;
+        }
+
+        form {
+            label.label-form {
+                line-height: 20.8px;
+            }
+
+            input.input-email {
+                height: 40px;
+                border: 1px solid #3DCEAA;
+                border-radius: 4px;
+                width: 100%;
+            }
+        }
     }
 
-    img.logo-footer {
-        width: 50%; 
-        max-width: 50vw;
+    article.footer-data-container {
+
+        position: relative;
+
+        img.logo-footer {
+            width: 50%;
+            max-width: 50vw;
+            margin: 2em;
+        }
+
+        h4.title-footer {
+            margin: 1em;
+            color: #FFFFFF;
+        }
+
+        p.powered-alt {
+            color: #FFFFFF;
+            font-style: italic;
+            text-decoration: underline;
+        }
     }
 
-    h4.title-footer {
-        margin: 1em;
-        color: #FFFFFF;
-    }
-
-    p.powered-alt {
-        color: #FFFFFF;
-        font-style: italic;
-        text-decoration: underline;
+    article.footer-data-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 37%;
+        right: 37%;
+        width: 26%;
+        height: 8px;
+        background: #FFFFFF;
+        border-radius: 8px;
     }
 }
-            

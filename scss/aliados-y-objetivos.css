@@ -34,4 +34,51 @@ section.aliados-y-objetivos article.data-objetivos div.container-title-objetivos
 }
 section.aliados-y-objetivos article.data-objetivos div.container-title-objetivos h3 {
   padding: 1em 0;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases {
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1490196078);
+  margin: 2%;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-title,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-title,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-title,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-title {
+  display: flex;
+  align-items: center;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-title img,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-title img,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-title img,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-title img {
+  width: 20%;
+  margin: 5%;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-estadisticas,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-estadisticas,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-estadisticas,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-estadisticas {
+  display: flex;
+  justify-content: space-evenly;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-estadisticas span,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-estadisticas span,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-estadisticas span,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-estadisticas span {
+  text-align: center;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-estadisticas span strong,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-estadisticas span strong,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-estadisticas span strong,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-estadisticas span strong {
+  font-size: 64px;
+}
+section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion div.container-estadisticas span p.p1,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura div.container-estadisticas span p.p1,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-estadisticas span p.p1,
+section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-estadisticas span p.p1 {
+  margin: 0 1em 1em;
 }/*# sourceMappingURL=aliados-y-objetivos.css.map */
