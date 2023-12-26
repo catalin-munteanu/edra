@@ -34,6 +34,7 @@
                         <span id="icon-cambio-climatico"><img src="img/mobile/icon-cambio-climatico.png">
                             <h5>Cambio<br>climático</h5>
                         </span>
+                        <img class="plus-sign" src="img/mobile/plus-sign.svg">
                         <span id="icon-seguridad-alimentaria"><img src="img/mobile/icon-seguridad-alimentaria.png">
                             <h5>Seguridad<br>alimentaria</h5>
                         </span>

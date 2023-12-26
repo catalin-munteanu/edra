@@ -35,6 +35,15 @@ section.presentacion {
             div.container-problemas {
 
                 display: flex;
+                position: relative;
+
+                img.plus-sign {
+                    position: absolute;
+                    z-index: 2;
+                    top: 40%;
+                    left: 45%;
+                    width: 10%;
+                }
                 
                 span#icon-cambio-climatico {
                     background: #0099CD;

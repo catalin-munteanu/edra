@@ -122,6 +122,14 @@ section.presentacion div.article-container article h4 {
 }
 section.presentacion div.article-container article div.container-problemas {
   display: flex;
+  position: relative;
+}
+section.presentacion div.article-container article div.container-problemas img.plus-sign {
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 45%;
+  width: 10%;
 }
 section.presentacion div.article-container article div.container-problemas span#icon-cambio-climatico {
   background: #0099CD;
