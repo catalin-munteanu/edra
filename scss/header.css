@@ -14,4 +14,13 @@ header nav button#burger-menu-toggler {
 }
 header nav button#burger-menu-toggler img {
   width: 10vw;
+}
+
+@media (min-width: 768px) {
+  header img.edra-logo-header {
+    width: 15vw;
+  }
+  nav button#burger-menu-toggler {
+    display: none;
+  }
 }/*# sourceMappingURL=header.css.map */

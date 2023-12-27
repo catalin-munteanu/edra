@@ -131,3 +131,23 @@ section.practicas-agricultura-sostenible {
     }
 
 }
+
+@media (min-width: 768px) {
+
+    section.practicas-agricultura-sostenible {
+
+        div.container-practicas {
+
+            display: flex;
+
+            article.cultivo-cobertura,
+            article.areas-conservacion,
+            article.gestion-perdidas-desperdicios,
+            article.recuperacion-envases {
+                width: 25%;
+            }
+        }
+
+    }
+
+}

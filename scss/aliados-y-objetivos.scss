@@ -95,3 +95,25 @@ section.aliados-y-objetivos {
         }
     }
 }
+
+@media (min-width: 768px) {
+
+    section.aliados-y-objetivos {
+        article.cinco-productores-empresas {
+            justify-content: center;
+        }
+
+        article.container-cards-objetivos {
+            display: flex;
+            padding: 0 2%;
+
+            div.card-area-conservacion,
+            div.card-cultivo-cobertura,
+            div.card-perdidas-desperdicios,
+            div.card-recuperacion-envases {
+                width: 25%;
+                margin: 0.5%;
+            }
+        }
+    }
+}

@@ -22,14 +22,18 @@ section.presentacion {
             /* Ensure the entire border area is covered by the gradient */
             border-image-repeat: stretch;
             /* Stretch the gradient to cover the entire border */
-        
-            p {
-                line-height: 20.8px;
-                margin: 10px;
-            }
 
-            h4 {
-                margin: 1em;
+            div.container-title {
+
+                p {
+                    line-height: 20.8px;
+                    margin: 10px;
+                }
+
+                h4 {
+                    margin: 1em;
+                }
+
             }
 
             div.container-problemas {
@@ -44,21 +48,22 @@ section.presentacion {
                     left: 45%;
                     width: 10%;
                 }
-                
+
                 span#icon-cambio-climatico {
                     background: #0099CD;
                     width: 50%;
                     color: #FFFFFF;
-                    
+
                     img {
                         width: 40%;
                         margin-top: 1em;
                     }
-                    
+
                     h5 {
                         margin: 1em;
                     }
                 }
+
                 span#icon-seguridad-alimentaria {
                     background: #3CCEAA;
                     width: 50%;
@@ -68,10 +73,43 @@ section.presentacion {
                         width: 40%;
                         margin-top: 1em;
                     }
-                    
+
                     h5 {
                         margin: 1em;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    section.presentacion {
+
+        div.article-container {
+
+            article {
+
+                display: flex;
+
+                div.container-title {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    p {
+                        width: 90%;
+                    }
+
+                    h4 {
+                        width: 50%;
+                    }
+                }
+
+                div.container-problemas {
+                    width: 50%;
                 }
             }
         }

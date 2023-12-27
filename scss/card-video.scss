@@ -38,3 +38,22 @@ section.card-video {
         }
     }
 }
+
+@media (min-width: 768px) {
+
+    section.card-video {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        article.container-title {
+
+            width: 60%;
+
+            h4 {
+                margin: 0 1em;
+            }
+        }
+    }
+}

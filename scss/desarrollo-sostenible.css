@@ -1,3 +1,8 @@
+section.objetivo-desarrollo-sostenible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 section.objetivo-desarrollo-sostenible article.impacto-ods {
   background-color: #213B8B;
   color: #FFFFFF;
@@ -7,10 +12,10 @@ section.objetivo-desarrollo-sostenible article.impacto-ods {
 section.objetivo-desarrollo-sostenible article.impacto-ods h4 {
   margin: 1em;
 }
-section.objetivo-desarrollo-sostenible article.impacto-ods div {
+section.objetivo-desarrollo-sostenible article.impacto-ods div.gallery-ods {
   padding: 0 15%;
 }
-section.objetivo-desarrollo-sostenible article.impacto-ods div img {
+section.objetivo-desarrollo-sostenible article.impacto-ods div.gallery-ods img {
   width: 45%;
   margin: 2%;
 }
@@ -25,4 +30,17 @@ section.objetivo-desarrollo-sostenible article.desarrollo-ods p {
   margin: 1em;
   margin-top: 0;
   line-height: 20.8px;
+}
+
+@media (min-width: 768px) {
+  section.objetivo-desarrollo-sostenible article.impacto-ods {
+    width: 100%;
+  }
+  section.objetivo-desarrollo-sostenible article.impacto-ods div.gallery-ods img {
+    width: 15%;
+    margin: 1%;
+  }
+  section.objetivo-desarrollo-sostenible article.desarrollo-ods {
+    width: 60%;
+  }
 }/*# sourceMappingURL=desarrollo-sostenible.css.map */

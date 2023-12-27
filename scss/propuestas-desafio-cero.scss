@@ -30,7 +30,7 @@ section.propuestas-desafio-cero {
         height: 2px;
         background: linear-gradient(to right, #0099CD, #3CCEAA);
     }
-    
+
     article.container-propuestas {
 
         div.propuestas-implementar {
@@ -62,6 +62,7 @@ section.propuestas-desafio-cero {
                 }
             }
         }
+
         div.propuestas-recuperar {
 
             p.subtitle {
@@ -91,6 +92,53 @@ section.propuestas-desafio-cero {
                 }
             }
         }
-
     }
+}
+
+@media (min-width: 768px) {
+
+    section.propuestas-desafio-cero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        article.container-title {
+            width: 60%;
+        }
+
+        article.container-propuestas {
+            display: flex;
+            width: 55%;
+
+            div.propuestas-implementar {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                div.container-prop-implementar {
+
+                    figure {
+                        width: 100%;
+                    }
+                }
+            }
+
+            div.propuestas-recuperar {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                div.container-prop-recuperar {
+
+                    figure {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
 }

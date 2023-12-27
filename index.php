@@ -25,11 +25,16 @@
 
     <main>
         <section class="presentacion">
-            <img id="presentacion-mobile" src="img/mobile/img-index.png">
+            <picture>
+                <source media="(min-width:768px)" srcset="img/desktop/img-index-d.png">
+                <img id="presentacion-mobile" src="img/mobile/img-index.png">
+            </picture>
             <div class="article-container">
                 <article>
-                    <p>Lanzamos DESAFÍO CERO con el objetivo de validar nuestra solución y su impacto positivo en la cadena de producción de alimentos. Juntos a nuestros aliados buscamos colaborar en la resolución de dos grandes desafíos: la seguridad alimentaria y el cambio climático.</p>
-                    <h4>Colaboramos a resolver estos dos problemas</h4>
+                    <div class="container-title">
+                        <p>Lanzamos DESAFÍO CERO con el objetivo de validar nuestra solución y su impacto positivo en la cadena de producción de alimentos. Juntos a nuestros aliados buscamos colaborar en la resolución de dos grandes desafíos: la seguridad alimentaria y el cambio climático.</p>
+                        <h4>Colaboramos a resolver estos dos problemas</h4>
+                    </div>
                     <div class="container-problemas">
                         <span id="icon-cambio-climatico"><img src="img/mobile/icon-cambio-climatico.png">
                             <h5>Cambio<br>climático</h5>
@@ -45,7 +50,7 @@
 
         <section class="objetivo-desarrollo-sostenible">
             <article class="impacto-ods">
-                <h4>Impactamos en estos ODS
+                <h4>Impactamos en estos ODS<br>
                     (Objetivo de Desarrollo Sostenible)</h4>
                 <div class="gallery-ods">
                     <img src="img/mobile/ODS 2.png">
@@ -232,7 +237,10 @@
         </section>
 
         <section class="indicadores-impacto">
-            <img src="img/mobile/indicadores-impacto-mobile.png">
+            <picture>
+                <source media="(min-width:768px)" srcset="img/desktop/indicadores-impacto-desktop.png">
+                <img id="presentacion-mobile" src="img/mobile/indicadores-impacto-mobile.png">
+            </picture>
             <article class="gallery-partners">
                 <h3>PARTNERS</h3>
             </article>

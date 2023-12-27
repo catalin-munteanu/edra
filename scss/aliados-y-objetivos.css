@@ -81,4 +81,21 @@ section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-c
 section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios div.container-estadisticas span p.p1,
 section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases div.container-estadisticas span p.p1 {
   margin: 0 1em 1em;
+}
+
+@media (min-width: 768px) {
+  section.aliados-y-objetivos article.cinco-productores-empresas {
+    justify-content: center;
+  }
+  section.aliados-y-objetivos article.container-cards-objetivos {
+    display: flex;
+    padding: 0 2%;
+  }
+  section.aliados-y-objetivos article.container-cards-objetivos div.card-area-conservacion,
+  section.aliados-y-objetivos article.container-cards-objetivos div.card-cultivo-cobertura,
+  section.aliados-y-objetivos article.container-cards-objetivos div.card-perdidas-desperdicios,
+  section.aliados-y-objetivos article.container-cards-objetivos div.card-recuperacion-envases {
+    width: 25%;
+    margin: 0.5%;
+  }
 }/*# sourceMappingURL=aliados-y-objetivos.css.map */

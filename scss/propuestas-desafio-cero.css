@@ -62,4 +62,38 @@ section.propuestas-desafio-cero article.container-propuestas div.propuestas-recu
 section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar figure figcaption {
   color: #213C89;
   margin: 0.5em;
+}
+
+@media (min-width: 768px) {
+  section.propuestas-desafio-cero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.propuestas-desafio-cero article.container-title {
+    width: 60%;
+  }
+  section.propuestas-desafio-cero article.container-propuestas {
+    display: flex;
+    width: 55%;
+  }
+  section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar div.container-prop-implementar figure {
+    width: 100%;
+  }
+  section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section.propuestas-desafio-cero article.container-propuestas div.propuestas-recuperar div.container-prop-recuperar figure {
+    width: 100%;
+  }
 }/*# sourceMappingURL=propuestas-desafio-cero.css.map */

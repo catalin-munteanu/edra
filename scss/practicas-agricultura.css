@@ -81,4 +81,16 @@ section.practicas-agricultura-sostenible div.container-practicas article.recuper
 section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases ul li {
   list-style: disc inside none;
   line-height: 20.8px;
+}
+
+@media (min-width: 768px) {
+  section.practicas-agricultura-sostenible div.container-practicas {
+    display: flex;
+  }
+  section.practicas-agricultura-sostenible div.container-practicas article.cultivo-cobertura,
+  section.practicas-agricultura-sostenible div.container-practicas article.areas-conservacion,
+  section.practicas-agricultura-sostenible div.container-practicas article.gestion-perdidas-desperdicios,
+  section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases {
+    width: 25%;
+  }
 }/*# sourceMappingURL=practicas-agricultura.css.map */
