@@ -15,12 +15,31 @@ header nav button#burger-menu-toggler {
 header nav button#burger-menu-toggler img {
   width: 10vw;
 }
+header nav ul.nav-menu {
+  display: none;
+}
 
 @media (min-width: 768px) {
   header img.edra-logo-header {
     width: 15vw;
   }
-  nav button#burger-menu-toggler {
+  header nav button#burger-menu-toggler {
     display: none;
+  }
+  header nav ul.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  header nav ul.nav-menu li.nav-menu-element {
+    margin: 1em;
+  }
+  header nav ul.nav-menu li#saber-mas {
+    padding: 12px 20px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #0099CD, #3CCEAA);
+    font-weight: 600;
   }
 }/*# sourceMappingURL=header.css.map */

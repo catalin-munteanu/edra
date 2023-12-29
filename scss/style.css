@@ -89,13 +89,32 @@ header nav button#burger-menu-toggler {
 header nav button#burger-menu-toggler img {
   width: 10vw;
 }
+header nav ul.nav-menu {
+  display: none;
+}
 
 @media (min-width: 768px) {
   header img.edra-logo-header {
     width: 15vw;
   }
-  nav button#burger-menu-toggler {
+  header nav button#burger-menu-toggler {
     display: none;
+  }
+  header nav ul.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  header nav ul.nav-menu li.nav-menu-element {
+    margin: 1em;
+  }
+  header nav ul.nav-menu li#saber-mas {
+    padding: 12px 20px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #0099CD, #3CCEAA);
+    font-weight: 600;
   }
 }
 section.presentacion img#presentacion-mobile {
@@ -359,6 +378,13 @@ section.card-video article p {
   margin: 2em;
   line-height: 20.8px;
 }
+section.card-video article button {
+  padding: 12px 20px;
+  border-radius: 100px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #0099CD, #3CCEAA);
+  font-weight: 600;
+}
 
 @media (min-width: 768px) {
   section.card-video {
@@ -456,6 +482,13 @@ section.practicas-agricultura-sostenible div.container-practicas article.recuper
 section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases ul li {
   list-style: disc inside none;
   line-height: 20.8px;
+}
+section.practicas-agricultura-sostenible button#saber-mas {
+  padding: 12px 20px;
+  border-radius: 100px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #0099CD, #3CCEAA);
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
@@ -604,6 +637,15 @@ footer article.subscribe-form form input.input-email {
   height: 40px;
   border: 1px solid #3DCEAA;
   border-radius: 4px;
+  width: 100%;
+}
+footer article.subscribe-form form input#submit {
+  padding: 12px 20px;
+  border-radius: 100px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #0099CD, #3CCEAA);
+  font-weight: 600;
+  margin-top: 1em;
   width: 100%;
 }
 footer article.footer-data-container {

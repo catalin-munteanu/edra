@@ -20,6 +20,12 @@
             <button id="burger-menu-toggler" aria-label="Menú de navegación">
                 <img id="open-mobile-menu" src="img/mobile/burger-menu-open.png" alt="Botón de apertura del menú">
             </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-element">Quiénes somos</li>
+                <li class="nav-menu-element">Qué hacemos?</li>
+                <li class="nav-menu-element">Cómo lo hacemos?</li>
+                <li class="nav-menu-element" id="saber-mas">Quiero saber más</li>
+            </ul>
         </nav>
     </header>
 
@@ -255,7 +261,7 @@
             <form>
                 <label for="email" class="label-form">Correo Electrónico</label><br>
                 <input type="email" name="mail" id="mail" class="input-email" required><br>
-                <input type="submit" value="Suscribirme" aria-label="Suscribirme">
+                <input type="submit" id="submit" value="Suscribirme" aria-label="Suscribirme">
             </form>
         </article>
         <article class="footer-data-container">

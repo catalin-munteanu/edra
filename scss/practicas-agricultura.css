@@ -82,6 +82,13 @@ section.practicas-agricultura-sostenible div.container-practicas article.recuper
   list-style: disc inside none;
   line-height: 20.8px;
 }
+section.practicas-agricultura-sostenible button#saber-mas {
+  padding: 12px 20px;
+  border-radius: 100px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #0099CD, #3CCEAA);
+  font-weight: 600;
+}
 
 @media (min-width: 768px) {
   section.practicas-agricultura-sostenible div.container-practicas {

@@ -25,6 +25,16 @@ footer {
                 border-radius: 4px;
                 width: 100%;
             }
+
+            input#submit {
+                padding: 12px 20px;
+                border-radius: 100px;
+                color: #FFFFFF;
+                background: linear-gradient(to right, #0099CD, #3CCEAA);
+                font-weight: 600;
+                margin-top: 1em;
+                width: 100%;
+            }
         }
     }
 
