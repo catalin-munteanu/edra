@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const galleryContainer = document.getElementById('automatic-gallery');
     const images = document.querySelectorAll('.gallery-logos img');
 
-    // Clone images to create a seamless loop
+    // Clone the original set of images and append them to the container
     images.forEach(img => {
         const clone = img.cloneNode(true);
         galleryContainer.appendChild(clone);
@@ -11,8 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Set the width of the container to accommodate all images
     galleryContainer.style.width = (images.length * 110) + '%'; // Adjusted to provide some spacing between images
 
-    // Adjust the animation duration based on the number of images
+    // Adjust the animation duration based on the number of original images
     const animationDuration = images.length * 12 + 's'; // Adjust the multiplier as needed
+
+    galleryContainer.innerHTML += galleryContainer.innerHTML; // Append the original set of images again
 
     document.styleSheets[0].insertRule(`
         @keyframes scrollGallery {
