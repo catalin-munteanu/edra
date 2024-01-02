@@ -8,6 +8,7 @@
     <title>Edra</title>
     <!-- Add any additional meta tags, link tags, or stylesheets below this line -->
     <link rel="stylesheet" href="scss/style.css">
+    <script src="js/main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;600&display=swap" rel="stylesheet">
@@ -177,6 +178,23 @@
                 </div>
                 <div class="color-verde"><strong class="big-number">5</strong><br>
                     <h4>Empresas</h4>
+                </div>
+            </article>
+            <article class="gallery-container">
+                <div class="gallery-logos" id="automatic-gallery">
+                <img src="img/mobile/01-papas-argentinas.png">
+                <img src="img/mobile/02-naika.png">
+                <img src="img/mobile/03-fundacion-bariloche.png">
+                <img src="img/mobile/04-basf.png">
+                <img src="img/mobile/05-tuberquality.png">
+                <img src="img/mobile/06-nodo.png">
+                <img src="img/mobile/07-potato-growers.png">
+                <img src="img/mobile/08-agro-spray.png">
+                <img src="img/mobile/09-capei.png">
+                <img src="img/mobile/10-avina.png">
+                <img src="img/mobile/11-chaye-hnos.png">
+                <img src="img/mobile/12-vadaju.png">
+                <img src="img/mobile/13-ximabe.png">
                 </div>
             </article>
             <article class="data-objetivos">
