@@ -7,9 +7,37 @@ section.indicadores-impacto {
     
     article.gallery-partners {
         text-align: center;
+        margin-bottom: 24px;
 
         h3 {
             margin: 1em;
+        }
+
+        article.gallery-container {
+            width: 100vw;
+            overflow: hidden;
+    
+            div.gallery-logos {
+    
+                display: flex;
+                animation: scrollGallery 20s linear infinite;
+    
+                img {
+                    height: 50px;
+                    margin-right: 40px;
+                }
+            }
+        }
+    
+        @keyframes scrollGallery {
+            0% {
+                transform: translateX(0);
+            }
+    
+            100% {
+                transform: translateX(-100%);
+                /* Adjust to -200% for two images, -300% for three, and so on */
+            }
         }
     }
 }

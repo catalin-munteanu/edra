@@ -267,6 +267,23 @@
             </picture>
             <article class="gallery-partners">
                 <h3>PARTNERS</h3>
+                <article class="gallery-container">
+                <div class="gallery-logos" id="automatic-gallery">
+                <img src="img/mobile/01-papas-argentinas.png">
+                <img src="img/mobile/02-naika.png">
+                <img src="img/mobile/03-fundacion-bariloche.png">
+                <img src="img/mobile/04-basf.png">
+                <img src="img/mobile/05-tuberquality.png">
+                <img src="img/mobile/06-nodo.png">
+                <img src="img/mobile/07-potato-growers.png">
+                <img src="img/mobile/08-agro-spray.png">
+                <img src="img/mobile/09-capei.png">
+                <img src="img/mobile/10-avina.png">
+                <img src="img/mobile/11-chaye-hnos.png">
+                <img src="img/mobile/12-vadaju.png">
+                <img src="img/mobile/13-ximabe.png">
+                </div>
+            </article>
             </article>
         </section>
     </main>

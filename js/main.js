@@ -16,6 +16,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     galleryContainer.innerHTML += galleryContainer.innerHTML; // Append the original set of images again
 
+    // Add an event listener to detect animation iteration
+    galleryContainer.addEventListener('animationiteration', () => {
+        // Reset the translation to 0 after each iteration
+        galleryContainer.style.transform = 'translateX(0)';
+    });
+
     document.styleSheets[0].insertRule(`
         @keyframes scrollGallery {
             0% {

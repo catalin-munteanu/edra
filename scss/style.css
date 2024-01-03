@@ -467,6 +467,7 @@ section.practicas-agricultura-sostenible div.container-practicas article.gestion
 }
 section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases {
   background-color: #213C89;
+  color: #FFFFFF;
   padding: 1em;
 }
 section.practicas-agricultura-sostenible div.container-practicas article.recuperacion-envases img {
@@ -631,9 +632,31 @@ section.indicadores-impacto img {
 }
 section.indicadores-impacto article.gallery-partners {
   text-align: center;
+  margin-bottom: 24px;
 }
 section.indicadores-impacto article.gallery-partners h3 {
   margin: 1em;
+}
+section.indicadores-impacto article.gallery-partners article.gallery-container {
+  width: 100vw;
+  overflow: hidden;
+}
+section.indicadores-impacto article.gallery-partners article.gallery-container div.gallery-logos {
+  display: flex;
+  animation: scrollGallery 20s linear infinite;
+}
+section.indicadores-impacto article.gallery-partners article.gallery-container div.gallery-logos img {
+  height: 50px;
+  margin-right: 40px;
+}
+@keyframes scrollGallery {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+    /* Adjust to -200% for two images, -300% for three, and so on */
+  }
 }
 
 footer {
