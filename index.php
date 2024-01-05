@@ -22,9 +22,9 @@
                 <img id="open-mobile-menu" src="img/mobile/burger-menu-open.png" alt="Botón de apertura del menú">
             </button>
             <ul class="nav-menu">
-                <li class="nav-menu-element">Quiénes somos</li>
-                <li class="nav-menu-element">Qué hacemos?</li>
-                <li class="nav-menu-element">Cómo lo hacemos?</li>
+                <li class="nav-menu-element moving-item">Quiénes somos</li>
+                <li class="nav-menu-element moving-item">Qué hacemos?</li>
+                <li class="nav-menu-element moving-item">Cómo lo hacemos?</li>
                 <li class="nav-menu-element" id="saber-mas">Quiero saber más</li>
             </ul>
         </nav>
@@ -115,12 +115,19 @@
             <article class="container-title">
                 <h4>EDRA es una climatech que promueve la implementación de soluciones basadas en la naturaleza a través de herramientas tecnológicas</h4>
             </article>
-            <article>
-                <h4>LANZAMOS EL DESAFÍO CERO</h4>
-                <p>Te contamos sobre nuestra metodología y nuestra visión</p>
-                <button id="conoce-edra" aria-label="Conocé EDRA">
-                    Conocé EDRA
-                </button>
+            <article class="flex-container">
+                <div class="info-container">
+                    <h4>LANZAMOS EL DESAFÍO CERO</h4>
+                    <p>Te contamos sobre nuestra metodología y nuestra visión</p>
+                    <button id="conoce-edra" aria-label="Conocé EDRA">
+                        Conocé EDRA
+                    </button>
+                </div>
+                <div class="video-section">
+                    <div class="video-container">
+                        <iframe class="item-video" width="560" height="315" src="https://www.youtube.com/embed/IaLK1fp808w?si=UqvpfDnzQ_BcYDHu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
             </article>
         </section>
 
@@ -173,28 +180,28 @@
             <h3>ALIADOS DEL DESAFÍO CERO</h3>
             <h4>Productores y empresas que se sumaron a esta prueba cerrada.</h4>
             <article class="cinco-productores-empresas">
-                <div class="color-celeste"><strong class="big-number">5</strong><br>
+                <div class="color-celeste"><strong class="big-number num" data-val="5">0</strong><br>
                     <h4>Productores</h4>
                 </div>
-                <div class="color-verde"><strong class="big-number">5</strong><br>
+                <div class="color-verde"><strong class="big-number num" data-val="5">0</strong><br>
                     <h4>Empresas</h4>
                 </div>
             </article>
             <article class="gallery-container">
                 <div class="gallery-logos" id="automatic-gallery">
-                <img src="img/mobile/01-papas-argentinas.png">
-                <img src="img/mobile/02-naika.png">
-                <img src="img/mobile/03-fundacion-bariloche.png">
-                <img src="img/mobile/04-basf.png">
-                <img src="img/mobile/05-tuberquality.png">
-                <img src="img/mobile/06-nodo.png">
-                <img src="img/mobile/07-potato-growers.png">
-                <img src="img/mobile/08-agro-spray.png">
-                <img src="img/mobile/09-capei.png">
-                <img src="img/mobile/10-avina.png">
-                <img src="img/mobile/11-chaye-hnos.png">
-                <img src="img/mobile/12-vadaju.png">
-                <img src="img/mobile/13-ximabe.png">
+                    <img src="img/mobile/01-papas-argentinas.png">
+                    <img src="img/mobile/02-naika.png">
+                    <img src="img/mobile/03-fundacion-bariloche.png">
+                    <img src="img/mobile/04-basf.png">
+                    <img src="img/mobile/05-tuberquality.png">
+                    <img src="img/mobile/06-nodo.png">
+                    <img src="img/mobile/07-potato-growers.png">
+                    <img src="img/mobile/08-agro-spray.png">
+                    <img src="img/mobile/09-capei.png">
+                    <img src="img/mobile/10-avina.png">
+                    <img src="img/mobile/11-chaye-hnos.png">
+                    <img src="img/mobile/12-vadaju.png">
+                    <img src="img/mobile/13-ximabe.png">
                 </div>
             </article>
             <article class="data-objetivos">
@@ -268,22 +275,22 @@
             <article class="gallery-partners">
                 <h3>PARTNERS</h3>
                 <article class="gallery-container">
-                <div class="gallery-logos" id="automatic-gallery">
-                <img src="img/mobile/01-papas-argentinas.png">
-                <img src="img/mobile/02-naika.png">
-                <img src="img/mobile/03-fundacion-bariloche.png">
-                <img src="img/mobile/04-basf.png">
-                <img src="img/mobile/05-tuberquality.png">
-                <img src="img/mobile/06-nodo.png">
-                <img src="img/mobile/07-potato-growers.png">
-                <img src="img/mobile/08-agro-spray.png">
-                <img src="img/mobile/09-capei.png">
-                <img src="img/mobile/10-avina.png">
-                <img src="img/mobile/11-chaye-hnos.png">
-                <img src="img/mobile/12-vadaju.png">
-                <img src="img/mobile/13-ximabe.png">
-                </div>
-            </article>
+                    <div class="gallery-logos" id="automatic-gallery">
+                        <img src="img/mobile/01-papas-argentinas.png">
+                        <img src="img/mobile/02-naika.png">
+                        <img src="img/mobile/03-fundacion-bariloche.png">
+                        <img src="img/mobile/04-basf.png">
+                        <img src="img/mobile/05-tuberquality.png">
+                        <img src="img/mobile/06-nodo.png">
+                        <img src="img/mobile/07-potato-growers.png">
+                        <img src="img/mobile/08-agro-spray.png">
+                        <img src="img/mobile/09-capei.png">
+                        <img src="img/mobile/10-avina.png">
+                        <img src="img/mobile/11-chaye-hnos.png">
+                        <img src="img/mobile/12-vadaju.png">
+                        <img src="img/mobile/13-ximabe.png">
+                    </div>
+                </article>
             </article>
         </section>
     </main>
@@ -307,5 +314,3 @@
     </footer>
 
 </body>
-
-</html>

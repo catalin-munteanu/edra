@@ -35,3 +35,45 @@ document.addEventListener('DOMContentLoaded', function () {
 
     galleryContainer.style.animation = `scrollGallery ${animationDuration} linear infinite`;
 });
+
+
+// Animated counter 1
+
+document.addEventListener("DOMContentLoaded", function () {
+    let articles = document.querySelectorAll(".cinco-productores-empresas");
+    let interval = 4000;
+  
+    function startCounter(valueDisplay) {
+      let startValue = 0;
+      let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+      let duration = Math.floor(interval / endValue);
+      let counter = setInterval(function () {
+        startValue += 1;
+        valueDisplay.textContent = startValue;
+        if (startValue == endValue) {
+          clearInterval(counter);
+        }
+      }, duration);
+    }
+  
+    function handleIntersection(entries, observer) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const article = entry.target;
+          const numElements = article.querySelectorAll(".num");
+          numElements.forEach((numElement) => {
+            startCounter(numElement);
+          });
+          observer.unobserve(article);
+        }
+      });
+    }
+  
+    const observer = new IntersectionObserver(handleIntersection, {
+      threshold: 1, // Adjust as needed
+    });
+  
+    articles.forEach((article) => {
+      observer.observe(article);
+    });
+  });

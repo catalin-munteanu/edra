@@ -35,11 +35,49 @@ header nav ul.nav-menu {
   header nav ul.nav-menu li.nav-menu-element {
     margin: 1em;
   }
+  header nav ul.nav-menu li.nav-menu-element:hover {
+    cursor: pointer;
+  }
+  header nav ul.nav-menu li.moving-item {
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  header nav ul.nav-menu li.moving-item:hover {
+    transform: translateY(-3px);
+  }
+  header nav ul.nav-menu li.moving-item::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #0099CD, #3CCEAA);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  header nav ul.nav-menu li.moving-item:hover::after {
+    opacity: 1;
+  }
   header nav ul.nav-menu li#saber-mas {
+    position: relative;
     padding: 12px 20px;
     border-radius: 100px;
-    color: #FFFFFF;
-    background: linear-gradient(to right, #0099CD, #3CCEAA);
+    color: #000000;
     font-weight: 600;
+    background: #FFFFFF;
+  }
+  header nav ul.nav-menu li#saber-mas::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: inherit;
+    background: linear-gradient(to right, #0099CD, #3CCEAA);
+    margin: -2px;
   }
 }/*# sourceMappingURL=header.css.map */
