@@ -6,24 +6,29 @@ section.presentacion {
 
     div.article-container {
 
-        display: inline-block;
-        /* Ensure the container only takes as much width as necessary */
+        position: relative;
         border-radius: 4px;
-        /* Set the border radius */
-        overflow: hidden;
-        /* Clip the border-radius to the child element */
-        margin: 15px;
+        margin: 1em;
+        background: #FFFFFF;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            border-radius: inherit;
+            background: linear-gradient(to right, #0099CD, #3CCEAA);
+            margin: -2px;
+        }
 
         article {
             text-align: center;
-            border-style: solid;
-            border-image: linear-gradient(to right, #0099CD, #3CCEAA);
-            border-image-slice: 1;
-            /* Ensure the entire border area is covered by the gradient */
-            border-image-repeat: stretch;
-            /* Stretch the gradient to cover the entire border */
 
             div.container-title {
+                padding-top: 16px;
 
                 p {
                     line-height: 20.8px;
