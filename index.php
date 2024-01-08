@@ -268,12 +268,48 @@
         </section>
 
         <section class="indicadores-impacto">
-            <article class="indicadores">
-                <picture>
+            <div class="indicadores-container">
+                <picture class="background">
                     <source media="(min-width:768px)" srcset="img/desktop/indicadores-impacto-desktop.webp">
                     <img id="presentacion-mobile" src="img/mobile/indicadores-impacto-mobile.webp">
                 </picture>
-            </article>
+                <article class="indicadores">
+                    <div class="titles-container">
+                        <h2 class="uppercase-text">Indicadores de impacto</h2>
+                        <h3 class="uppercase-text">(socioambiental)</h3>
+                    </div>
+                    <div class="stats-container">
+                        <div class="un-indicador">
+                            <article>
+                                <p class="big-number">0</p>
+                                <p>tn CO2e</p>
+                            </article>
+                            <h4>Emisiones de CO2</h4>
+                        </div>
+                        <div class="un-indicador">
+                            <article>
+                                <p class="big-number">0</p>
+                                <p>m3</p>
+                            </article>
+                            <h4>Agua no desperdiciada</h4>
+                        </div>
+                        <div class="un-indicador">
+                            <article>
+                                <p class="big-number">0</p>
+                                <p></p>
+                            </article>
+                            <h4>Raciones de comida</h4>
+                        </div>
+                        <div class="un-indicador">
+                            <article>
+                                <p class="big-number">0</p>
+                                <p>Kg</p>
+                            </article>
+                            <h4>Plástico Recuperado</h4>
+                        </div>
+                    </div>
+                </article>
+            </div>
             <article class="gallery-partners">
                 <h3>PARTNERS</h3>
                 <article class="gallery-container">
