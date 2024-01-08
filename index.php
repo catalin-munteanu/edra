@@ -268,10 +268,12 @@
         </section>
 
         <section class="indicadores-impacto">
-            <picture>
-                <source media="(min-width:768px)" srcset="img/desktop/indicadores-impacto-desktop.png">
-                <img id="presentacion-mobile" src="img/mobile/indicadores-impacto-mobile.png">
-            </picture>
+            <article class="indicadores">
+                <picture>
+                    <source media="(min-width:768px)" srcset="img/desktop/indicadores-impacto-desktop.webp">
+                    <img id="presentacion-mobile" src="img/mobile/indicadores-impacto-mobile.webp">
+                </picture>
+            </article>
             <article class="gallery-partners">
                 <h3>PARTNERS</h3>
                 <article class="gallery-container">
