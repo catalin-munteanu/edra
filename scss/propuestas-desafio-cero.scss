@@ -105,11 +105,16 @@ section.propuestas-desafio-cero {
 
         article.container-title {
             width: 60%;
+
+            div {
+                margin-top: 7.62%;
+            }
         }
 
         article.container-propuestas {
             display: flex;
             width: 55%;
+            margin-bottom: 3%;
 
             div.propuestas-implementar {
                 width: 50%;

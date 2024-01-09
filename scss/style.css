@@ -223,7 +223,7 @@ section.presentacion div.article-container article {
   text-align: center;
 }
 section.presentacion div.article-container article div.container-title {
-  padding-top: 16px;
+  padding: 16px;
 }
 section.presentacion div.article-container article div.container-title p {
   line-height: 20.8px;
@@ -231,6 +231,7 @@ section.presentacion div.article-container article div.container-title p {
 }
 section.presentacion div.article-container article div.container-title h4 {
   margin: 1em;
+  margin-bottom: 10px;
 }
 section.presentacion div.article-container article div.container-problemas {
   display: flex;
@@ -247,6 +248,10 @@ section.presentacion div.article-container article div.container-problemas span#
   background: #0099CD;
   width: 50%;
   color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 section.presentacion div.article-container article div.container-problemas span#icon-cambio-climatico img {
   width: 40%;
@@ -259,6 +264,10 @@ section.presentacion div.article-container article div.container-problemas span#
   background: #3CCEAA;
   width: 50%;
   color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 section.presentacion div.article-container article div.container-problemas span#icon-seguridad-alimentaria img {
   width: 40%;
@@ -269,6 +278,26 @@ section.presentacion div.article-container article div.container-problemas span#
 }
 
 @media (min-width: 768px) {
+  section.presentacion div.video-section {
+    align-items: space-evenly;
+  }
+  section.presentacion div.video-section video#background-video {
+    display: none;
+  }
+  section.presentacion div.video-section video#background-video-desktop {
+    display: block;
+  }
+  section.presentacion div.video-section div.content h1 {
+    font-size: 64px;
+    line-height: 83.2px;
+  }
+  section.presentacion div.video-section div.content h2 {
+    font-size: 32px;
+    line-height: 41.6px;
+  }
+  section.presentacion div.article-container {
+    margin: 2.86%;
+  }
   section.presentacion div.article-container article {
     display: flex;
   }
@@ -284,26 +313,19 @@ section.presentacion div.article-container article div.container-problemas span#
   }
   section.presentacion div.article-container article div.container-title h4 {
     width: 50%;
+    margin: 10px;
   }
   section.presentacion div.article-container article div.container-problemas {
     width: 50%;
   }
-}
-@media (min-width: 768px) {
-  section.presentacion div.video-section {
-    align-items: space-evenly;
+  section.presentacion div.article-container article div.container-problemas img.plus-sign {
+    top: 42%;
+    left: 47%;
+    width: 6%;
   }
-  section.presentacion div.video-section video#background-video {
-    display: none;
-  }
-  section.presentacion div.video-section video#background-video-desktop {
-    display: block;
-  }
-  section.presentacion div.video-section div.content h1 {
-    font-size: 64px;
-  }
-  section.presentacion div.video-section div.content h2 {
-    font-size: 32px;
+  section.presentacion div.article-container article div.container-problemas span#icon-cambio-climatico img,
+  section.presentacion div.article-container article div.container-problemas span#icon-seguridad-alimentaria img {
+    width: 17.14%;
   }
 }
 section.objetivo-desarrollo-sostenible {
@@ -350,6 +372,10 @@ section.objetivo-desarrollo-sostenible article.desarrollo-ods p {
   }
   section.objetivo-desarrollo-sostenible article.desarrollo-ods {
     width: 60%;
+    margin-bottom: 4.57%;
+  }
+  section.objetivo-desarrollo-sostenible article.desarrollo-ods img {
+    width: 16%;
   }
 }
 section.propuestas-desafio-cero article.container-title {
@@ -428,9 +454,13 @@ section.propuestas-desafio-cero article.container-propuestas div.propuestas-recu
   section.propuestas-desafio-cero article.container-title {
     width: 60%;
   }
+  section.propuestas-desafio-cero article.container-title div {
+    margin-top: 7.62%;
+  }
   section.propuestas-desafio-cero article.container-propuestas {
     display: flex;
     width: 55%;
+    margin-bottom: 3%;
   }
   section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar {
     width: 50%;
@@ -527,6 +557,7 @@ section.card-video article.flex-container div.video-section div.video-container 
   }
   section.card-video article.container-title {
     width: 60%;
+    padding: 4.57% 1.5em;
   }
   section.card-video article.container-title h4 {
     margin: 0 1em;

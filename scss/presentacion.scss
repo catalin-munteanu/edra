@@ -76,7 +76,7 @@ section.presentacion {
             text-align: center;
 
             div.container-title {
-                padding-top: 16px;
+                padding: 16px;
 
                 p {
                     line-height: 20.8px;
@@ -85,6 +85,7 @@ section.presentacion {
 
                 h4 {
                     margin: 1em;
+                    margin-bottom: 10px;
                 }
 
             }
@@ -106,6 +107,10 @@ section.presentacion {
                     background: #0099CD;
                     width: 50%;
                     color: #FFFFFF;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
 
                     img {
                         width: 40%;
@@ -121,6 +126,10 @@ section.presentacion {
                     background: #3CCEAA;
                     width: 50%;
                     color: #FFFFFF;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
 
                     img {
                         width: 40%;
@@ -139,7 +148,34 @@ section.presentacion {
 @media (min-width: 768px) {
     section.presentacion {
 
+        div.video-section {
+
+            align-items: space-evenly;
+
+            video#background-video {
+                display: none;
+            }
+
+            video#background-video-desktop {
+                display: block;
+            }
+
+            div.content {
+                h1 {
+                    font-size: 64px;
+                    line-height: 83.2px;
+                }
+
+                h2 {
+                    font-size: 32px;
+                    line-height: 41.6px;
+                }
+            }
+        }
+
         div.article-container {
+
+            margin: 2.86%;
 
             article {
 
@@ -158,41 +194,29 @@ section.presentacion {
 
                     h4 {
                         width: 50%;
+                        margin: 10px;
                     }
                 }
 
                 div.container-problemas {
                     width: 50%;
+
+                    img.plus-sign {
+
+                        top: 42%;
+                        left: 47%;
+                        width: 6%;
+                    }
+
+                    span#icon-cambio-climatico,
+                    span#icon-seguridad-alimentaria {
+
+                        img {
+
+                            width: 17.14%;
+                        }
+                    }
                 }
-            }
-        }
-    }
-}
-
-@media (min-width: 768px) {
-
-    section.presentacion {
-
-        div.video-section {
-
-            align-items: space-evenly;
-            video#background-video {
-                display: none;
-            }
-
-            video#background-video-desktop {
-                display: block;
-            }
-
-            div.content {
-                h1 {
-                    font-size: 64px;
-                }
-
-                h2 {
-                    font-size: 32px;
-                }
-
             }
         }
     }

@@ -74,9 +74,13 @@ section.propuestas-desafio-cero article.container-propuestas div.propuestas-recu
   section.propuestas-desafio-cero article.container-title {
     width: 60%;
   }
+  section.propuestas-desafio-cero article.container-title div {
+    margin-top: 7.62%;
+  }
   section.propuestas-desafio-cero article.container-propuestas {
     display: flex;
     width: 55%;
+    margin-bottom: 3%;
   }
   section.propuestas-desafio-cero article.container-propuestas div.propuestas-implementar {
     width: 50%;

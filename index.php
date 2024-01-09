@@ -49,7 +49,7 @@
                     <article class="presentacion-data">
                         <div class="container-title">
                             <p>Lanzamos DESAFÍO CERO con el objetivo de validar nuestra solución y su impacto positivo en la cadena de producción de alimentos. Juntos a nuestros aliados buscamos colaborar en la resolución de dos grandes desafíos: la seguridad alimentaria y el cambio climático.</p>
-                            <h4>Colaboramos a resolver estos dos problemas</h4>
+                            <h4>Colaboramos a resolver estos<br>dos problemas</h4>
                         </div>
                         <div class="container-problemas">
                             <span id="icon-cambio-climatico"><img src="img/mobile/icon-cambio-climatico.png">
