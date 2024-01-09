@@ -32,27 +32,36 @@
 
     <main>
         <section class="presentacion">
-            <picture>
-                <source media="(min-width:768px)" srcset="img/desktop/img-index-d.png">
-                <img id="presentacion-mobile" src="img/mobile/img-index.png">
-            </picture>
-            <div class="article-container">
-                <article class="presentacion-data">
-                    <div class="container-title">
-                        <p>Lanzamos DESAFÍO CERO con el objetivo de validar nuestra solución y su impacto positivo en la cadena de producción de alimentos. Juntos a nuestros aliados buscamos colaborar en la resolución de dos grandes desafíos: la seguridad alimentaria y el cambio climático.</p>
-                        <h4>Colaboramos a resolver estos dos problemas</h4>
-                    </div>
-                    <div class="container-problemas">
-                        <span id="icon-cambio-climatico"><img src="img/mobile/icon-cambio-climatico.png">
-                            <h5>Cambio<br>climático</h5>
-                        </span>
-                        <img class="plus-sign" src="img/mobile/plus-sign.svg">
-                        <span id="icon-seguridad-alimentaria"><img src="img/mobile/icon-seguridad-alimentaria.png">
-                            <h5>Seguridad<br>alimentaria</h5>
-                        </span>
-                    </div>
-                </article>
+            <div class="video-section">
+                <video autoplay muted loop id="background-video">
+                    <source src="img/mobile/background-video-mobile.mp4" type="video/mp4">
+                </video>
+                <video autoplay muted loop id="background-video-desktop">
+                    <source src="img/desktop/background-video-desktop.mp4" type="video/mp4">
+                </video>
+                <div class="content">
+                    <img class="logo" src="img/mobile/logo-desafio-cero-mobile.png">
+                    <h1 class="uppercase-text">Desafio Cero</h1>
+                    <h2>Desafío Agricultura Sostenible 23/24</h2>
+                </div>
             </div>
+                <div class="article-container">
+                    <article class="presentacion-data">
+                        <div class="container-title">
+                            <p>Lanzamos DESAFÍO CERO con el objetivo de validar nuestra solución y su impacto positivo en la cadena de producción de alimentos. Juntos a nuestros aliados buscamos colaborar en la resolución de dos grandes desafíos: la seguridad alimentaria y el cambio climático.</p>
+                            <h4>Colaboramos a resolver estos dos problemas</h4>
+                        </div>
+                        <div class="container-problemas">
+                            <span id="icon-cambio-climatico"><img src="img/mobile/icon-cambio-climatico.png">
+                                <h5>Cambio<br>climático</h5>
+                            </span>
+                            <img class="plus-sign" src="img/mobile/plus-sign.svg">
+                            <span id="icon-seguridad-alimentaria"><img src="img/mobile/icon-seguridad-alimentaria.png">
+                                <h5>Seguridad<br>alimentaria</h5>
+                            </span>
+                        </div>
+                    </article>
+                </div>
         </section>
 
         <section class="objetivo-desarrollo-sostenible">

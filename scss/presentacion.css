@@ -1,6 +1,48 @@
-section.presentacion img#presentacion-mobile {
-  width: 100vw;
-  max-width: 100vw;
+section.presentacion div.video-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.presentacion div.video-section video#background-video-desktop {
+  display: none;
+}
+section.presentacion div.video-section video#background-video,
+section.presentacion div.video-section video#background-video-desktop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.presentacion div.video-section div.content {
+  position: relative;
+  z-index: 1;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.presentacion div.video-section div.content img.logo {
+  width: 50%;
+  margin: 0 25%;
+}
+section.presentacion div.video-section div.content h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 41.6px;
+  margin: 12px;
+}
+section.presentacion div.video-section div.content h2 {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 7.5%;
 }
 section.presentacion div.article-container {
   position: relative;
@@ -88,5 +130,22 @@ section.presentacion div.article-container article div.container-problemas span#
   }
   section.presentacion div.article-container article div.container-problemas {
     width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  section.presentacion div.video-section {
+    align-items: space-evenly;
+  }
+  section.presentacion div.video-section video#background-video {
+    display: none;
+  }
+  section.presentacion div.video-section video#background-video-desktop {
+    display: block;
+  }
+  section.presentacion div.video-section div.content h1 {
+    font-size: 64px;
+  }
+  section.presentacion div.video-section div.content h2 {
+    font-size: 32px;
   }
 }/*# sourceMappingURL=presentacion.css.map */
